@@ -1,0 +1,94 @@
+// Home sytles
+#home {
+
+    .scene .static-container {
+        padding: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    /* @scene Intro */
+    #intro {
+        .intro-bg{
+            position: fixed;
+            bottom: 0;
+            right: calc(25vw - 175px);
+            opacity: .2;
+        }
+    }
+
+    .std {
+        font-size: 1.2rem;
+
+        .-big{
+            display: block;
+            font-size: 4rem;
+            font-weight: 700;
+            word-spacing: -.1em;
+            letter-spacing: -.05em;
+            width: 70vw;
+        }
+    }
+
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+
+    #home {
+
+        #intro {
+            .intro-bg{
+                right: -300px;
+            }
+        }
+
+        .spine { left: 1rem }
+        .spine-target{ left: calc(1rem - 4px) }
+
+        .std {
+            .-big{
+                font-size: 3.5rem;
+                width: 90vw;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #home {
+
+        #thanks{
+            li {
+                margin-bottom: .5rem;
+            }
+        }
+
+        .std {
+            .-big{
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+
+    #home {
+        .title { white-space: nowrap }
+
+        .std {
+            font-size: 1rem;
+            .-big{ font-size: 2rem }
+        }
+
+    }
+
+}
