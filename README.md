@@ -15,3 +15,7 @@ To build the project
 `npm run build`
 
 [strsx.com](https://strsx.com/)
+
+# Github webpage branch
+Github Pages has been used in `gh-pages` branch, 
+built output files please placed in that branch
