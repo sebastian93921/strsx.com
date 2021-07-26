@@ -18,4 +18,4 @@ To build the project
 
 # Github webpage branch
 Github Pages has been used in `gh-pages` branch, 
-built output files please placed in that branch
+built output files please copy to that branch for web deployment
