@@ -1,15 +1,14 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import VueAnalytics from 'vue-analytics';
+import VueGtag from "vue-gtag";
 
 // no tips
 Vue.config.productionTip = false;
 
 // Analytics
-Vue.use(VueAnalytics, {
-    id: 'UA-75833214-1',
-    router
+Vue.use(VueGtag, {
+    config: { id: "UA-75833214-1" }
 });
 
 // service worker

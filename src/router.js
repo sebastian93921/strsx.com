@@ -57,7 +57,7 @@ const router = new Router({
         },
         {
             path: '/resume-console',
-            name: 'strsx',
+            name: 'strsx-console',
             component: ResumeConsole,
             meta: {
                 title: 'strsx.com',
@@ -98,7 +98,7 @@ const router = new Router({
         },
         {
             path: '/real-resume',
-            name: 'strsx',
+            name: 'strsx-resume',
             component: RealResume,
             meta: {
                 title: 'strsx.com',

@@ -36,6 +36,7 @@
     import Civic from "@/components/Home/Civic.vue";
     import Thanks from "@/components/Home/Thanks.vue";
     import Spine from '@/components/Spine.vue';
+    import { TweenLite, Power3, Power0, Elastic, TimelineMax } from "gsap";
 
     export default {
         name: 'home',
@@ -73,7 +74,6 @@
             setupScenes() {
                 const scenesElements = document.querySelectorAll(".scene");
                 for (let [i, scenesElement] of Array.from(scenesElements).entries()) {
-                    console.log(scenesElement)
                     // tweeners, to animate the time lines' progress, to add momentum
                     this.tweeners[i] = new TimelineMax();
                     // time lines
