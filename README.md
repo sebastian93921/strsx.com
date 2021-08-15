@@ -17,5 +17,5 @@ To build the project
 [strsx.com](https://strsx.com/)
 
 # Github webpage branch
-Github Pages has been used in `gh-pages` branch, 
+Github Pages has been used in `gh-pages` branch,  
 built output files please copy to that branch for web deployment
