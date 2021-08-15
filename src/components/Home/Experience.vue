@@ -114,7 +114,6 @@ export default {
             return ((job.id - 1) / this.jobs.length * 100 ) + '%';
         },
         jobCardTopLocation(job){
-            console.log(( 10 + (20 / this.jobs.length * (this.jobs.length - job.id + 1)) ));
             return ( (50 / this.jobs.length * (this.jobs.length - job.id + 1)) ) + 'vh';
         },
     },

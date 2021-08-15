@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "cache-loader": "^4.1.0",
-    "gsap": "^3.0.1",
+    "gsap": "^3.6.1",
     "nprogress": "^0.2.0",
     "scrollmagic": "^2.0.6",
     "scrollmagic-plugin-gsap": "^1.0.3",
