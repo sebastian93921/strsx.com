@@ -160,6 +160,13 @@
                 <h2>Related Certification</h2>
 
                 <section>
+                    <h3><a href="">Offensive Security Web Expert (OSWE)</a></h3>
+                    <time>2021</time>
+                    <p><i>Credential ID OS-AWAE-23113</i></p>
+                    <p><i>Offensive Security</i></p>
+                </section>
+
+                <section>
                     <h3><a href="">Offensive Security Certified Professional (OSCP)</a></h3>
                     <time>2021</time>
                     <p><i>Credential ID OS-101-55143</i></p>
