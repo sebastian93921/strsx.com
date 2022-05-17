@@ -3,7 +3,7 @@
     <div class="header-container">
       <header class="wrapper clearfix">
         <h1 class="title">Sebastian Ko</h1>
-        <p>Application Security Engineer | OSWE | OSCP | eJPT</p>
+        <p>Application Security Engineer | OSEP | OSWE | OSCP | eJPT</p>
       </header>
     </div>
     <main class="main-container">
@@ -38,8 +38,13 @@
                     <p>
 
                     </p><ul>
-                        <li>Code reviewing</li>
-                        <li>Security tool development</li>
+                        <li>Perform <b>Security Code Review</b> on both <b>Automatic and Manual</b> way</li>
+                        <li>Perform <b>Penetration Test on Web Application with Burp</b></li>
+                        <li><b>CVSS scoring, risk ranking, threats and vulnerabilities reporting</b> based on security assessments</li>
+                        <li>Provide <b>Security Advice</b> to Development team</li>
+                        <li>Security Tool <b>Design and Development</b> with Spring, Burp plugin etc..</li>
+                        <li>Participating <b>Amazon Web Services</b> cloud software test & deployment</li>
+                        <li>Responsible for managing or providing developer application security awareness and education</li>
                     </ul>
 
                     <p></p>
@@ -158,6 +163,13 @@
 
             <section id="certification" class="list">
                 <h2>Related Certification</h2>
+
+                <section>
+                    <h3><a href="">Offensive Security Experienced Penetration Tester (OSEP)</a></h3>
+                    <time>2022</time>
+                    <p><i>Credential ID OSEP-13552</i></p>
+                    <p><i>Offensive Security</i></p>
+                </section>
 
                 <section>
                     <h3><a href="">Offensive Security Web Expert (OSWE)</a></h3>
