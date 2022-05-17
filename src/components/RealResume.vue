@@ -42,9 +42,10 @@
                         <li>Perform <b>Penetration Test on Web Application with Burp</b></li>
                         <li><b>CVSS scoring, risk ranking, threats and vulnerabilities reporting</b> based on security assessments</li>
                         <li>Provide <b>Security Advice</b> to Development team</li>
-                        <li>Security Tool <b>Design and Development</b> with Spring, Burp plugin etc..</li>
-                        <li>Participating <b>Amazon Web Services</b> cloud software test & deployment</li>
+                        <li>Security Tool <b>Design and Development</b> with ASP.NET, Spring & Burp plugin etc..</li>
+                        <li>Participating <b>Amazon Web Services</b> cloud environment <b>Software Test & Deployment</b></li>
                         <li>Responsible for managing or providing developer <b>application security awareness and education</b></li>
+                        <li>CI/CD Automation with Circle CI</li>
                     </ul>
 
                     <p></p>
@@ -272,9 +273,10 @@
                 <div class="skill-set">
 
                     <ul>
-                        <li><strong>Backend Development</strong></li>
+                        <li><strong>Research & Development</strong></li>
                         <li>Java Programming</li>
                         <li>Spring Framework</li>
+                        <li>C# ASP.NET Programming</li>
                         <li>PostgreSQL</li>
                         <li>Oracle SQL</li>
                         <li>Apache Cassandra</li>
@@ -282,9 +284,8 @@
                         <li>REST Api</li>
                         <li>Apache Camel</li>
                         <li>Go Programming</li>
-                        <li>JavaScript Programming</li>
-                        <li>AngularJS</li>
                         <li>Maven</li>
+                        <li>Checkmarx</li>
                     </ul>
 
                     <ul>
@@ -300,6 +301,7 @@
                         <li>Unit Testing</li>
                         <li>Integration Test</li>
                         <li>VBA</li>
+                        <li>AngularJS</li>
                     </ul>
 
                     <ul>
