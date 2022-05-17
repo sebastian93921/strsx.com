@@ -44,7 +44,7 @@
                         <li>Provide <b>Security Advice</b> to Development team</li>
                         <li>Security Tool <b>Design and Development</b> with Spring, Burp plugin etc..</li>
                         <li>Participating <b>Amazon Web Services</b> cloud software test & deployment</li>
-                        <li>Responsible for managing or providing developer application security awareness and education</li>
+                        <li>Responsible for managing or providing developer <b>application security awareness and education</b></li>
                     </ul>
 
                     <p></p>
