@@ -3,7 +3,7 @@
     <div class="header-container">
       <header class="wrapper clearfix">
         <h1 class="title">Sebastian Ko</h1>
-        <p>Application Security Engineer | OSEP | OSWE | OSCP | eJPT</p>
+        <p>Application Security Engineer | OSCE3 | OSCP </p>
       </header>
     </div>
     <main class="main-container">
@@ -164,6 +164,20 @@
 
             <section id="certification" class="list">
                 <h2>Related Certification</h2>
+
+                <section>
+                    <h3><a href="">Offensive Security Certified Expert 3 (OSCE3)</a></h3>
+                    <time>2022</time>
+                    <p><i>Credential ID 899fbe74-8c5d-4a8c-9bce-b028553af38a</i></p>
+                    <p><i>Offensive Security</i></p>
+                </section>
+
+                <section>
+                    <h3><a href="">Offensive Security Exploit Developer (OSED)</a></h3>
+                    <time>2022</time>
+                    <p><i>Credential ID OSED-31476</i></p>
+                    <p><i>Offensive Security</i></p>
+                </section>
 
                 <section>
                     <h3><a href="">Offensive Security Experienced Penetration Tester (OSEP)</a></h3>
