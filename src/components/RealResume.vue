@@ -43,6 +43,9 @@
                         <li><b>CVSS scoring, risk ranking, threats and vulnerabilities reporting</b> based on security assessments</li>
                         <li>Provide <b>Security Advice</b> to Development team</li>
                         <li>Security Tool <b>Design and Development</b> with ASP.NET, Spring & Burp plugin etc..</li>
+                        <li>Security System supporting <b>500</b> reports with <b>Fully automated report generation</b> and integrate with <b>Vulnerability management systems</b></li>
+                        <li>Ticketing control with support on <b>Cloudflare Automation</b> implmented with slack notification</li>
+                        <li>Security System supports API Inventory and Read only PII removed database querying tool for better data protection</li>
                         <li>Participating <b>Amazon Web Services</b> cloud environment <b>Software Test & Deployment</b></li>
                         <li>Responsible for managing or providing developer <b>application security awareness and education</b></li>
                         <li>CI/CD Automation with Circle CI</li>
@@ -253,15 +256,17 @@
                 <h2>Achievement</h2>
 
                 <section>
-                    <h3><a href="">Design a New Mobile Operating System - A Cloud Operating System</a></h3>
-                    <time>July 2014</time>
-                    <p><i>The Final Year Project of BSc (Hons) Business Information Technology</i></p>
+                    <h3><a href="">Security and Software Development Project</a></h3>
+                    <time>2010 - Present</time>
+                    <p><i>All of my Github Projects including my hobbies and some open source projects</i></p>
                     <ul>
-                      <li>Focused on designing an effective operating system operated from the network server</li>
-                      <li>Researched on Computer Servers technique and Supply Management Systems</li>
-                      <li>Operating System Architecture design with Remote Access Execution</li>
-                      <li>Experiments of Proposed technique about Application Cloud operating</li>
-                      <li>Defined how Remote Access Execution in Cloud Systems worked</li>
+                      <li><strong>Markdown2Openxml.NET</strong> - Convert Markdown format into OpenXML Word format in C#</li>
+                      <li><strong>burp-payload-tester</strong> - Burpsuite plugin for automated test each of the field for specific API</li>
+                      <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - Simple Multithreaded TCP listener</li>
+                      <li><strong>wordlist-chrome-context-menu</strong> - Simple Chrome plugin for selecting test payload from menu</li>
+                      <li><strong>Desktop-Magic-Light</strong> - Hobbies project</li>
+                      <li><strong>strsx.com</strong> - This website</li>
+                      <li><a href="https://github.com/sebastian93921/" target="_blank">Click for GitHub link</a></li>
                     </ul>
                 </section>
 
