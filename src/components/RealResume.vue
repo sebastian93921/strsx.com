@@ -48,7 +48,7 @@
                         <li>Security System supports API Inventory and Read only PII removed database querying tool for better data protection</li>
                         <li>Participating <b>Amazon Web Services</b> cloud environment <b>Software Test & Deployment</b></li>
                         <li>Responsible for managing or providing developer <b>application security awareness and education</b></li>
-                        <li>CI/CD Automation with Circle CI</li>
+                        <li>CI/CD Automation with Circle CI, Github Actions, ArgoCD etc..</li>
                     </ul>
 
                     <p></p>
