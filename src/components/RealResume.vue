@@ -151,7 +151,7 @@
                 <section>
                     <h3><a href="">BSc (Hons) Business Information Technology (Second Honour)</a></h3>
                     <time>2013 - 2014</time>
-                    <p><i>City University of Hong Kong / Coventry University</i></p>
+                    <p><i>Coventry University</i></p>
                 </section>
 
                 <section>
