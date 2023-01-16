@@ -43,12 +43,14 @@
                         <li>Perform <b>CVSS scoring, risk ranking, threats and vulnerabilities reporting</b> based on security assessments</li>
                         <li>Provide <b>Security Advice</b> to Development team</li>
                         <li>Security Tool <b>Design and Development</b> with ASP.NET, Spring & Burp plugin etc..</li>
+                        <li><b>Test and Scan Automation</b> Development with Airflow etc..</li>
                         <li>Design and developed <b>Report management</b> which supported <b>500</b> reports with <b>Fully automated report generation</b> and integrate with <b>Vulnerability management systems</b></li>
                         <li>Design and developed <b>Ticketing control</b> with support on <b>Cloudflare Automation</b> and <b>slack notification</b></li>
                         <li>Design and developed API Inventory and Read only PII removed database querying tool for better data protection</li>
                         <li>Participating <b>Amazon Web Services</b> cloud environment <b>Software Test & Deployment</b></li>
                         <li>Managing or Providing developer <b>application security awareness and education</b></li>
                         <li>Perform CI/CD Automation with Circle CI, Github Actions, ArgoCD etc..</li>
+                        <li>Review and Development language focus on Java, C# .NET and Python</li>
                     </ul>
 
                     <p></p>
