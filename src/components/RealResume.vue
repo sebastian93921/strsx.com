@@ -34,7 +34,7 @@
                 <section>
                     <h3><a href="" target="_blank">Crypto.com</a></h3>
                     <time>April 2021 - Present</time>
-                    <p><i>Application Security Engineer</i></p>
+                    <p><i>Senior Application Security Engineer</i></p>
                     <p>
 
                     </p><ul>
@@ -47,7 +47,8 @@
                         <li>Design and developed <b>Report management</b> which supported <b>500</b> reports with <b>Fully automated report generation</b> and integrate with <b>Vulnerability management systems</b></li>
                         <li>Design and developed <b>Ticketing control</b> with support on <b>Cloudflare Automation</b> and <b>slack notification</b></li>
                         <li>Design and developed API Inventory and Read only PII removed database querying tool for better data protection</li>
-                        <li>Participating <b>Amazon Web Services</b> cloud environment <b>Software Test & Deployment</b></li>
+                        <li>Participating <b>Software Test & Deployment</b> on <b>Cloud based</b> environment such as AWS, Azure</li>
+                        <li>Participating <b>PII Hunting</b> on <b>Cloud based</b> environment such as AWS, Azure</li>
                         <li>Managing or Providing developer <b>application security awareness and education</b></li>
                         <li>Perform CI/CD Automation with Circle CI, Github Actions, ArgoCD etc..</li>
                         <li>Review and Development language focus on Java, C# .NET and Python</li>
