@@ -70,7 +70,7 @@ export default {
                 {
                     "id":5,
                     "company":"Crypto.com",
-                    "role":"Application Security Engineer",
+                    "role":"Senior Application Security Engineer",
                     "year":"21 ~",
                     "icon":"crypto.png"
                 },

@@ -3,7 +3,7 @@
     <div class="header-container">
       <header class="wrapper clearfix">
         <h1 class="title">Sebastian Ko</h1>
-        <p>Application Security Engineer | OSCE3 | OSCP </p>
+        <p>Senior Application Security Engineer | OSCE3 | OSCP </p>
       </header>
     </div>
     <main class="main-container">
