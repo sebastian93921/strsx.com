@@ -41,7 +41,7 @@
                         <li>Perform <b>Security Code Review</b> on both <b>Automatic and Manual</b> way</li>
                         <li>Perform <b>Penetration Test on Web Application with Burp</b></li>
                         <li>Perform <b>CVSS scoring, risk ranking, threats and vulnerabilities reporting</b> based on security assessments</li>
-                        <li>Perform Mobile App Scan via <b>MobSF</b> and <b>AppKnox</b></li>
+                        <li>Perform Mobile App Scanning via <b>MobSF</b> and <b>AppKnox</b></li>
                         <li>Provide <b>Security Advice</b> to Development team</li>
                         <li>Security Tool <b>Design and Development</b> with ASP.NET, Spring & Burp plugin etc..</li>
                         <li><b>Test and Scan Automation</b> Development with Airflow etc..</li>
