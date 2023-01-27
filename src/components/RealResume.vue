@@ -41,7 +41,7 @@
                         <li>Perform <b>Security Code Review</b> on both <b>Automatic and Manual</b> way</li>
                         <li>Perform <b>Penetration Test on Web Application with Burp</b></li>
                         <li>Perform <b>CVSS scoring, risk ranking, threats, and vulnerability reporting</b> based on vulnerability assessment results</li>
-                        <li>Perform Mobile App Scanning via <b>MobSF</b> and <b>AppKnox</b> and testing via <b>Objection</b></li>
+                        <li>Perform Mobile App Scanning via <b>MobSF</b> and <b>AppKnox</b> and Testing via <b>Objection</b></li>
                         <li>Working closely with the software engineering team to <b>Ensure a secure SDLC</b></li>
                         <li>Provide <b>Security Advice</b> and <b>Secure Coding and DevSecOps Training</b> to Ensure a secure working environment</li>
                         <li>Security Tool <b>Design and Development</b> with ASP.NET, Spring & Burp plugin etc..</li>
