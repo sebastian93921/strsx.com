@@ -43,7 +43,7 @@
                         <li>Perform <b>CVSS scoring, risk ranking, threats and vulnerabilities reporting</b> based on vulnerability assessment results</li>
                         <li>Perform Mobile App Scanning via <b>MobSF</b> and <b>AppKnox</b></li>
                         <li>Working closely with the software engineering team to <b>Ensure a secured SDLC</b></li>
-                        <li>Provide <b>Security Advice</b> and <b>Secure Coding and DevSecOps Training</b> to Ensure a secured working enivronment</li>
+                        <li>Provide <b>Security Advice</b> and <b>Secure Coding and DevSecOps Training</b> to Ensure a secured working environment</li>
                         <li>Security Tool <b>Design and Development</b> with ASP.NET, Spring & Burp plugin etc..</li>
                         <li><b>Test and Scan Automation</b> Development with Airflow etc..</li>
                         <li>Design and developed <b>Report management</b> which supported <b>500</b> reports with <b>Fully automated report generation</b> and integrate with <b>Vulnerability management systems</b></li>
