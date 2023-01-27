@@ -69,7 +69,7 @@
                     </p><ul>
                         <li>Application testing UIT / UAT</li>
                         <li>System design and draft requirement according to RFP</li>
-                        <li>Provides technical solution to the team on technical design</li>
+                        <li>Provides a technical solution to the team on technical design</li>
                     </ul>
 
                     <p></p>
@@ -111,12 +111,12 @@
                     </p><ul>
                         <li>Technical Operator, <b>Huawei Mediation System</b> </li>
                         <li><b>Pearl script</b> handling between different types of Data</li>
-                        <li><b>Java script, and other similar script</b>, for multiple types of incoming CDR flow</li>
+                        <li><b>Java script, and other similar scripts</b>, for multiple types of incoming CDR flow</li>
                         <li>Rating System development</li>
                         <li>MVNO Operator Flow control with Roaming CDR & TAPIN Handling</li>
-                        <li>Handling multiple types of CDR files from different sourse</li>
+                        <li>Handling multiple types of CDR files from different sources</li>
                         <li>Batch file / shell script processing program</li>
-                        <li>Development functions to handle multiple CDR of databases in <b>UNIX platform</b></li>
+                        <li>Development functions to handle multiple CDR of databases in the <b>UNIX platform</b></li>
                         <li>Development of <b>Bash Script & Java language</b></li>
                     </ul>
 
@@ -131,7 +131,7 @@
                     <p>
                       
                     </p><ul>
-                        <li>Focus on Mobile phone Billing System optimizing across different systems</li>
+                        <li>Focus on Mobile phone Billing System optimization across different systems</li>
                         <li>Provisioning processor enhancement</li>
                         <li>Development in Data Plan / Roaming Service calculation</li>
                         <li>Development server for SMS Messages</li>
@@ -270,7 +270,7 @@
                       <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - Simple Multithreaded TCP listener</li>
                       <li><strong>wordlist-chrome-context-menu</strong> - Simple Chrome plugin for selecting test payload from menu</li>
                       <li><strong>Desktop-Magic-Light</strong> - Hobbies project</li>
-                      <li><strong>strsx.com</strong> - This website</li>
+                      <li><strong>strsx.com</strong> - My ePortfolio, this website</li>
                       <li><a href="https://github.com/sebastian93921/" target="_blank">Click for GitHub link</a></li>
                     </ul>
                 </section>
