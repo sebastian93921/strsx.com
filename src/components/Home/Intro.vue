@@ -37,7 +37,7 @@ export default {
             typeArray: [
                     "<h2 style='color: red'>Sebastian Ko</h2>",
                     "",
-                    "<p style='color: #dbdbdb'>Developer & Reviewer & Penetester, Hong Kong</p>",
+                    "<p style='color: #dbdbdb'>Developer, Reviewer & Pentester, Hong Kong</p>",
                     "",
                     "> Research and Development",
                     "> Backend system review & pentesting",
