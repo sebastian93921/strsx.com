@@ -39,7 +39,7 @@
 
                     </p><ul>
                         <li>Perform <b>Security Code Review</b> on both <b>Automatic and Manual</b> way</li>
-                        <li>Perform <b>Penetration Test on Web Application with Burp</b></li>
+                        <li>Perform <b>Penetration Test on Web Application</b></li>
                         <li>Perform <b>CVSS scoring, risk ranking, threats, and vulnerability reporting</b> based on vulnerability assessment results</li>
                         <li>Perform Mobile App Scanning via <b>MobSF</b> and <b>AppKnox</b> and Testing via <b>Objection</b></li>
                         <li>Working closely with the software engineering team to <b>Ensure a secure SDLC</b></li>
@@ -265,11 +265,10 @@
                     <time>2010 - Present</time>
                     <p><i>All of my Github Projects including my hobbies and some open source projects</i></p>
                     <ul>
+                      <li><strong>OSINT Offensive Toolkit (oott)</strong> - OSINT Tools suits for pentesters and for security assessment</li>
                       <li><strong>Markdown2Openxml.NET</strong> - Convert Markdown format into OpenXML Word format in C#</li>
                       <li><strong>burp-payload-tester</strong> - Burpsuite plugin for automated test each of the field for specific API</li>
                       <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - Simple Multithreaded TCP listener</li>
-                      <li><strong>wordlist-chrome-context-menu</strong> - Simple Chrome plugin for selecting test payload from menu</li>
-                      <li><strong>Desktop-Magic-Light</strong> - Hobbies project</li>
                       <li><strong>strsx.com</strong> - My ePortfolio, this website</li>
                       <li><a href="https://github.com/sebastian93921/" target="_blank">Click for GitHub link</a></li>
                     </ul>
