@@ -38,22 +38,24 @@
                     <p>
 
                     </p><ul>
-                        <li>Perform <b>Security Code Review</b> on both <b>Automatic and Manual</b> way</li>
-                        <li>Perform <b>Penetration Test on Web Application</b></li>
-                        <li>Perform <b>CVSS scoring, risk ranking, threats, and vulnerability reporting</b> based on vulnerability assessment results</li>
-                        <li>Perform Mobile App Scanning via <b>MobSF</b> and <b>AppKnox</b> and Testing via <b>Objection</b></li>
-                        <li>Working closely with the software engineering team to <b>Ensure a secure SDLC</b></li>
-                        <li>Provide <b>Security Advice</b> and <b>Secure Coding and DevSecOps Training</b> to Ensure a secure working environment</li>
-                        <li>Security Tool <b>Design and Development</b> with ASP.NET, Spring & Burp plugin etc..</li>
-                        <li><b>Test and Scan Automation</b> Development with Airflow etc..</li>
-                        <li>Design and developed <b>Report management</b> which supported <b>500</b> reports with <b>Fully automated report generation</b> and integrate with <b>Vulnerability management systems</b></li>
-                        <li>Design and developed <b>Ticketing control</b> with support on <b>Cloudflare Automation</b> and <b>slack notification</b></li>
-                        <li>Design and developed API Inventory and Read only PII removed database querying tool for better data protection</li>
-                        <li>Participating in <b>Software Test & Deployment</b> on <b>Cloud based</b> environments such as AWS, Azure</li>
-                        <li>Participating in <b>PII Hunting</b> on <b>Cloud based</b> environments such as AWS, Azure</li>
-                        <li>Managing or Providing developer <b>application security awareness and education</b></li>
-                        <li>Perform CI/CD Automation with Circle CI, GitHub Actions, ArgoCD etc..</li>
-                        <li>Review and Development language focus on Go, Java, C# .NET, and Python</li>
+                      <li><b>Engage in Red Teaming</b> or simulated attack exercises to identify vulnerabilities and weaknesses in applications and infrastructure, improving overall security resilience.</li>
+                      <li><b>Perform thorough Penetration Tests</b> on web applications, employing various techniques and tools to simulate real-world attacks and uncover security weaknesses.</li>
+                      <li><b>Conduct comprehensive Security Code Reviews</b>, utilizing automated scanning tools and manual examination to identify and address vulnerabilities in applications.</li>
+                      <li><b>Assess vulnerabilities</b> using industry-standard CVSS scoring and risk ranking methodologies, generating detailed threat reports for prioritized remediation.</li>
+                      <li><b>Collaborate closely with software engineering teams</b> to embed security practices throughout the SDLC.</li>
+                      <li><b>Provide expert Security Advice</b>, guidance on secure coding practices, and deliver DevSecOps training.</li>
+                      <li><b>Design and develop Security Tools</b> using ASP.NET, Spring, and Burp plugin, including an API Inventory Management System and a read-only PII removed database querying tool.</li>
+                      <li>Participate actively in software testing and deployment on cloud-based environments like AWS and Azure.</li>
+                      <li><b>Utilize specialized tools</b> like MobSF, AppKnox, and Objection for mobile application scanning and testing on both Android and iOS platforms.</li>
+                      <li>Create a comprehensive <b>Report Management System</b> for generating detailed security reports.</li>
+                      <li>Automate test and scanning processes using tools like Airflow to improve efficiency.</li>
+                      <li><b>Develop a Ticketing Control System</b> with Cloudflare automation and Slack notification support for streamlined incident response.</li>
+                      <li>Design and develop an API Inventory Management System and a read-only PII removed database querying tool.</li>
+                      <li><b>Engage in proactive PII Hunting</b> within cloud-based environments.</li>
+                      <li><b>Manage or provide Developer Application Security Awareness and Education.</b></li>
+                      <li><b>Perform CI/CD Automation</b> using tools like Circle CI, GitHub Actions, and ArgoCD.</li>
+                      <li><b>Review and develop applications</b> focusing on Go, Java, C# .NET, and Python.</li>
+                      <li><b>Make use of GPT LLM</b> to streamline and automate certain aspects of my job, enhancing productivity and efficiency.</li>
                     </ul>
 
                     <p></p>
@@ -67,9 +69,9 @@
                     <p>
 
                     </p><ul>
-                        <li>Application testing UIT / UAT</li>
-                        <li>System design and draft requirement according to RFP</li>
-                        <li>Provides a technical solution to the team on technical design</li>
+                      <li>Conduct application testing for User Interface Testing (UIT) and User Acceptance Testing (UAT).</li>
+                      <li>Assist in system design and drafting requirements based on Request for Proposal (RFP) specifications.</li>
+                      <li>Offer technical expertise to the team by providing solutions and recommendations for technical design.</li>
                     </ul>
 
                     <p></p>
@@ -83,19 +85,19 @@
                     <p>
 
                     </p><ul>
-                        <li>Application architecture related technologies’ development with <b>Kafka, Zookeeper and Active MQ</b></li>
-                        <li>Automated fare collection (AFC) System design & development with <b>Spring Boot, Spring Data JPA and PostgreSQL</b></li>
-                        <li>Backend system UI design & development with <b>AngularJS</b> and designed an auto UI layout generator from Java annotation based class to javascript UI with <b>Java reflect</b></li>
-                        <li>Configurable mock rest api engine design & development with pure <b>Go language</b></li>
-                        <li>Testing environment design & development with <b>vagrant, puppet manifest and Bash script</b></li>
-                        <li>Both Web and System development with <b>Oracle SQL, Spring, Struts, Apache Tomee and Hibernate</b></li>
-                        <li>Participating in Application performance engineering with <b>Grafana, Logstash, Telegraf and Jolokia</b></li>
-                        <li>Speed up the processing rate up to <b>52%</b> of the Clearing System</li>
-                        <li>Built and deploy <b>Docker compose and Docker container</b> cluster</li>
-                        <li>Maintain <b>Maven and Jenkins</b> for version control</li>
-                        <li>Participating <b>Azure Cloud</b> software test & deployment</li>
-                        <li>Managing <b>offshore development team</b></li>
-                        <li>Participating in SDLC, Requirement Gathering, Design, Development and Testing</li>
+                        <li>Developed application architecture using <b>Kafka, Zookeeper, and Active MQ</b>.</li>
+                        <li>Designed and developed an Automated Fare Collection (AFC) system using <b>Spring Boot, Spring Data JPA, and PostgreSQL</b>.</li>
+                        <li>Created a user-friendly UI for the backend system using <b>AngularJS</b> and implemented an automatic UI layout generator using <b>Java Reflect</b>.</li>
+                        <li>Built a configurable mock REST API engine using <b>Go language</b>.</li>
+                        <li>Developed testing environments using <b>Vagrant, Puppet Manifest, and Bash script</b>.</li>
+                        <li>Worked on both web and system development using <b>Oracle SQL, Spring, Struts, Apache Tomee, and Hibernate</b>.</li>
+                        <li>Contributed to application performance engineering with tools like <b>Grafana, Logstash, Telegraf, and Jolokia</b>.</li>
+                        <li>Achieved a significant processing rate increase of up to <b>52%</b> for the Clearing System.</li>
+                        <li>Implemented and deployed <b>Docker Compose</b> and <b>Docker containers</b> for streamlined deployment.</li>
+                        <li>Maintained version control using tools like <b>Maven and Jenkins</b>.</li>
+                        <li>Participated in software testing and deployment on the <b>Azure Cloud</b>.</li>
+                        <li>Managed an offshore development team to ensure project success.</li>
+                        <li>Played a key role in the entire SDLC, including requirement gathering, design, development, and testing.</li>
                     </ul>
 
                     <p></p>
@@ -109,15 +111,15 @@
                     <p>
 
                     </p><ul>
-                        <li>Technical Operator, <b>Huawei Mediation System</b> </li>
-                        <li><b>Pearl script</b> handling between different types of Data</li>
-                        <li><b>Java script, and other similar scripts</b>, for multiple types of incoming CDR flow</li>
-                        <li>Rating System development</li>
-                        <li>MVNO Operator Flow control with Roaming CDR & TAPIN Handling</li>
-                        <li>Handling multiple types of CDR files from different sources</li>
-                        <li>Batch file / shell script processing program</li>
-                        <li>Development functions to handle multiple CDR of databases in the <b>UNIX platform</b></li>
-                        <li>Development of <b>Bash Script & Java language</b></li>
+                      <li>Served as a Technical Operator for the <b>Huawei Mediation System</b>.</li>
+                      <li>Developed and utilized <b>Pearl script</b> for efficient handling of different types of data.</li>
+                      <li>Implemented <b>Java script</b> and other similar scripts to manage multiple types of incoming CDR flow.</li>
+                      <li>Contributed to the development of a Rating System.</li>
+                      <li>Managed MVNO Operator Flow control with expertise in Roaming CDR and TAPIN Handling.</li>
+                      <li>Handled and processed multiple types of CDR files from different sources.</li>
+                      <li>Developed a batch file and shell script processing program.</li>
+                      <li>Created functions to handle multiple CDR databases in the <b>UNIX platform</b>.</li>
+                      <li>Developed solutions using <b>Bash Script</b> and the <b>Java language</b>.</li>
                     </ul>
 
                     <p></p>
@@ -131,16 +133,16 @@
                     <p>
                       
                     </p><ul>
-                        <li>Focus on Mobile phone Billing System optimization across different systems</li>
-                        <li>Provisioning processor enhancement</li>
-                        <li>Development in Data Plan / Roaming Service calculation</li>
-                        <li>Development server for SMS Messages</li>
-                        <li>Development in PDP (Packet Data Protocol) processing for GPRS / HSDPA network</li>
-                        <li>Background job and On the fly handling development</li>
-                        <li>Systems processed around 30k customers of transactions each day with stable performance</li>
-                        <li>Development in SOAP Based API</li>
-                        <li>Maintain <b>Git</b> workflows for version control</li>
-                        <li>Mainly <b>Java, Apache Camel Framework, Spring Framework, Hibernate and MVC technique</b></li>
+                      <li>Focused on optimizing the Mobile Phone Billing System across different systems.</li>
+                      <li>Enhanced the provisioning processor for improved performance.</li>
+                      <li>Developed calculations for Data Plan and Roaming Service.</li>
+                      <li>Designed and developed a server for handling SMS messages.</li>
+                      <li>Implemented PDP (Packet Data Protocol) processing for GPRS/HSDPA network.</li>
+                      <li>Developed background job and on-the-fly handling solutions.</li>
+                      <li>Managed systems processing around 30k customer transactions each day with stable performance.</li>
+                      <li>Developed SOAP-based APIs.</li>
+                      <li>Maintained <b>Git</b> workflows for effective version control.</li>
+                      <li>Primarily utilized <b>Java, Apache Camel Framework, Spring Framework, Hibernate, and MVC technique</b>.</li>
                     </ul>
 
                     <p></p>
@@ -263,28 +265,28 @@
                 <section>
                     <h3><a href="">Security and Software Development Project</a></h3>
                     <time>Present</time>
-                    <p><i>All of my Github Projects including my hobbies and some open source projects</i></p>
+                    <p><i>This section showcases my various projects on GitHub, which include both personal hobbies and contributions to open source projects.</i></p>
                     <ul>
-                      <li><strong>OSINT Offensive Toolkit (oott)</strong> - OSINT Tools suits for pentesters and for security assessment</li>
-                      <li><strong>Markdown2Openxml.NET</strong> - Convert Markdown format into OpenXML Word format in C#</li>
-                      <li><strong>burp-payload-tester</strong> - Burpsuite plugin for automated test each of the field for specific API</li>
-                      <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - Simple Multithreaded TCP listener</li>
-                      <li><strong>strsx.com</strong> - My ePortfolio, this website</li>
-                      <li><a href="https://github.com/sebastian93921/" target="_blank">Click for GitHub link</a></li>
+                      <li><strong>OSINT Offensive Toolkit (oott)</strong> - A collection of OSINT tools specifically designed for pentesters and security assessments.</li>
+                      <li><strong>Markdown2Openxml.NET</strong> - A C# library that converts Markdown format into OpenXML Word format.</li>
+                      <li><strong>burp-payload-tester</strong> - A Burp Suite plugin for automated testing of each field in a specific API.</li>
+                      <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - A simple multithreaded TCP listener for reverse shell connections.</li>
+                      <li><strong>strsx.com</strong> - My ePortfolio website, which serves as a showcase of my work.</li>
+                      <li><a href="https://github.com/sebastian93921/" target="_blank">Click here to visit my GitHub profile</a>.</li>
                     </ul>
                 </section>
 
                 <section>
                     <h3><a href="">Enhanced Music Player network systems (The Extened Music Player)</a></h3>
                     <time>June 2013</time>
-                    <p><i>The Final Year Project of Higer Diploma in Telecommunication and Networking</i></p>
+                    <p><i>This project was completed as part of my Higher Diploma in Telecommunication and Networking.</i></p>
                     <ul>
-                      <li><strong>Intelligent project-show awards</strong></li>
-                      <li>Built in Java language</li>
-                      <li>Design and developed a music player</li>
-                      <li>Defined a traffic controllable Cloud music streaming server structure</li>
-                      <li>Developed a Music Player and a Cloud Server with back-end systems</li>
-                      <li><a href="https://github.com/sebastian93921/FYProjects" target="_blank">Click for GitHub link</a></li>
+                      <li><strong>Intelligent Project Showcase Awards</strong></li>
+                      <li>Built using Java programming language</li>
+                      <li>Designed and developed a feature-rich music player application</li>
+                      <li>Implemented a scalable and traffic-controllable cloud music streaming server structure</li>
+                      <li>Developed both the Music Player application and the Cloud Server with backend systems</li>
+                      <li><a href="https://github.com/sebastian93921/FYProjects" target="_blank">Click here to visit the project's GitHub repository</a></li>
                     </ul>
                 </section>
 
@@ -297,6 +299,7 @@
 
                     <ul>
                         <li><strong>Research & Development</strong></li>
+                        <li>Go Programming</li>
                         <li>Java Programming</li>
                         <li>Spring Framework</li>
                         <li>C# ASP.NET Programming</li>
@@ -306,7 +309,6 @@
                         <li>Hibernate</li>
                         <li>REST Api</li>
                         <li>Apache Camel</li>
-                        <li>Go Programming</li>
                         <li>Maven</li>
                         <li>Checkmarx</li>
                     </ul>
