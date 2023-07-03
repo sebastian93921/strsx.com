@@ -53,7 +53,7 @@
                         <li>Participating in <b>PII Hunting</b> on <b>Cloud based</b> environments such as AWS, Azure</li>
                         <li>Managing or Providing developer <b>application security awareness and education</b></li>
                         <li>Perform CI/CD Automation with Circle CI, GitHub Actions, ArgoCD etc..</li>
-                        <li>Review and Development language focus on Java, C# .NET, and Python</li>
+                        <li>Review and Development language focus on Go, Java, C# .NET, and Python</li>
                     </ul>
 
                     <p></p>
@@ -262,7 +262,7 @@
 
                 <section>
                     <h3><a href="">Security and Software Development Project</a></h3>
-                    <time>2010 - Present</time>
+                    <time>Present</time>
                     <p><i>All of my Github Projects including my hobbies and some open source projects</i></p>
                     <ul>
                       <li><strong>OSINT Offensive Toolkit (oott)</strong> - OSINT Tools suits for pentesters and for security assessment</li>
