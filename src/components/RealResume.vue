@@ -331,6 +331,7 @@
 
                     <ul>
                         <li><strong>Personal Development</strong></li>
+                        <li>Certificate in PHTLS</li>
                         <li>Certificate in First Aid</li>
                         <li>Operation of Automatic External Defibrillator</li>
                     </ul>
