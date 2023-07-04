@@ -74,7 +74,7 @@
 
                     </p><ul>
                       <li><b>Managed offshore development team</b> for successful project delivery, contributed to <b>Application performance engineering by increasing 100%+ transaction performances</b> with Grafana, Logstash, Telegraf, and Jolokia, and <b>played a key role in the entire SDLC</b>, including requirement gathering, design, development, and testing</li>
-                      <li><b>Developed application architecture</li> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> using Spring Boot, Spring Data JPA, and PostgreSQL. Also created an <b>Anotation based auto generated UI framework</b> for the backend system using AngularJS</li>
+                      <li><b>Developed application architecture</b> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> using Spring Boot, Spring Data JPA, and PostgreSQL. Also created an <b>Anotation based auto generated UI framework</b> for the backend system using AngularJS</li>
                       <li><b>Built a configurable mock REST API engine</b> using Go language.</li>
                       <li><b>Implemented Docker Compose and Docker containers</b> for streamlined deployment.</li>
                     </ul>
