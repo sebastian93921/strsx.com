@@ -429,7 +429,7 @@ Print styles
     margin-bottom: 0;}
   /* Show link destinations in brackets after the link text */
   a[href]:after {
-    content: ": " attr(href) " "; }
+    content: " " attr(href) " "; }
   a[href] {
     font-weight: bold;
     text-decoration: none;
