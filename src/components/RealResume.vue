@@ -19,7 +19,6 @@
           <p><a class="plain" href="tel:+852 6671 0749"><strong>Phone: +852 6671 0749</strong></a></p>
           <p><a href="https://www.linkedin.com/in/sebastian-ko-65385a12b/" target="_blank" class="no-print"><strong>LinkedIn profile</strong></a>
           </p>
-          <p><a href="https://www.instagram.com/sebastianmkk/" target="_blank" class="no-print"><strong>Instagram</strong></a></p>
           
           <h3>
             <p id="printfriendly">Right click > Print to print it out.</p>
@@ -38,24 +37,13 @@
                     <p>
 
                     </p><ul>
-                      <li><b>Engage in Red Teaming</b> or simulated attack exercises to identify vulnerabilities and weaknesses in applications and infrastructure, improving overall security resilience.</li>
-                      <li><b>Perform thorough Penetration Tests</b> on web applications, employing various techniques and tools to simulate real-world attacks and uncover security weaknesses.</li>
-                      <li><b>Conduct comprehensive Security Code Reviews</b>, utilizing automated scanning tools and manual examination to identify and address vulnerabilities in applications.</li>
-                      <li><b>Assess vulnerabilities</b> using industry-standard CVSS scoring and risk ranking methodologies, generating detailed threat reports for prioritized remediation.</li>
-                      <li><b>Collaborate closely with software engineering teams</b> to embed security practices throughout the SDLC.</li>
-                      <li><b>Provide expert Security Advice</b>, guidance on secure coding practices, and deliver DevSecOps training.</li>
-                      <li><b>Design and develop Security Tools</b> using ASP.NET, Spring, and Burp plugin, including an API Inventory Management System and a read-only PII removed database querying tool.</li>
-                      <li>Participate actively in software testing and deployment on cloud-based environments like AWS and Azure.</li>
-                      <li><b>Utilize specialized tools</b> like MobSF, AppKnox, and Objection for mobile application scanning and testing on both Android and iOS platforms.</li>
-                      <li>Create a comprehensive <b>Report Management System</b> for generating detailed security reports.</li>
-                      <li>Automate test and scanning processes using tools like Airflow to improve efficiency.</li>
-                      <li><b>Develop a Ticketing Control System</b> with Cloudflare automation and Slack notification support for streamlined incident response.</li>
-                      <li>Design and develop an API Inventory Management System and a read-only PII removed database querying tool.</li>
-                      <li><b>Engage in proactive PII Hunting</b> within cloud-based environments.</li>
-                      <li><b>Manage or provide Developer Application Security Awareness and Education.</b></li>
-                      <li><b>Perform CI/CD Automation</b> using tools like Circle CI, GitHub Actions, and ArgoCD.</li>
-                      <li><b>Review and develop applications</b> focusing on Go, Java, C# .NET, and Python.</li>
-                      <li><b>Make use of GPT LLM</b> to streamline and automate certain aspects of my job, enhancing productivity and efficiency.</li>
+                      <li><b>Managed and conducted company-wide Red Teaming exercises</b> to simulate attacker objectives and actions, assessing the overall strength of organizational defenses across the entire network</li>
+                      <li><b>Performed Penetration Tests and Security Code Reviews</b>, assessed vulnerabilities using industry-standard methodologies, and <b>remediated 10+ critical or high severity issues</b></li>
+                      <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and provided <b>expert security advice, guidance, and DevSecOps training</b></li>
+                      <li><b>Invented and developed security tools</b> using ASP.NET, Spring, and Go with automated test and scanning processes. <b>Achieved 100% faster assessment report construction</b></li>
+                      <li><b>Utilized specialized tools</b> for mobile application scanning and testing on Android and iOS platforms, and <b>proactively hunted for PII</b> in cloud-based environments</li>
+                      <li><b>Designed and developed</b> an API Inventory Management System and read-only database querying tool. Participated in software testing and deployment on cloud-based environments (AWS and Azure). <b>Performed CI/CD Automation</b> using Circle CI, GitHub Actions, and ArgoCD. Reviewed and developed applications in Go, Java, C# .NET, and Python</li>
+                      <li><b>Facilitated global developers Application Security Awareness and Education initiatives</b>, conducting monthly presentations for new employees, power users, and influencers across the company</li>
                     </ul>
 
                     <p></p>
@@ -69,9 +57,9 @@
                     <p>
 
                     </p><ul>
-                      <li>Conduct application testing for User Interface Testing (UIT) and User Acceptance Testing (UAT).</li>
-                      <li>Assist in system design and drafting requirements based on Request for Proposal (RFP) specifications.</li>
-                      <li>Offer technical expertise to the team by providing solutions and recommendations for technical design.</li>
+                      <li><b>Assisted in system design</b> and played an integral role in drafting requirements based on RFP specifications</li>
+                      <li><b>Provided technical expertise, offering innovative solutions and valuable recommendations</b> to address complex challenges</li>
+                      <li><b>Collaborated</b> effectively with colleagues, actively contributing to the provision of technical design recommendations for successful project implementation</li>
                     </ul>
 
                     <p></p>
@@ -85,19 +73,10 @@
                     <p>
 
                     </p><ul>
-                        <li>Developed application architecture using <b>Kafka, Zookeeper, and Active MQ</b>.</li>
-                        <li>Designed and developed an Automated Fare Collection (AFC) system using <b>Spring Boot, Spring Data JPA, and PostgreSQL</b>.</li>
-                        <li>Created a user-friendly UI for the backend system using <b>AngularJS</b> and implemented an automatic UI layout generator using <b>Java Reflect</b>.</li>
-                        <li>Built a configurable mock REST API engine using <b>Go language</b>.</li>
-                        <li>Developed testing environments using <b>Vagrant, Puppet Manifest, and Bash script</b>.</li>
-                        <li>Worked on both web and system development using <b>Oracle SQL, Spring, Struts, Apache Tomee, and Hibernate</b>.</li>
-                        <li>Contributed to application performance engineering with tools like <b>Grafana, Logstash, Telegraf, and Jolokia</b>.</li>
-                        <li>Achieved a significant processing rate increase of up to <b>52%</b> for the Clearing System.</li>
-                        <li>Implemented and deployed <b>Docker Compose</b> and <b>Docker containers</b> for streamlined deployment.</li>
-                        <li>Maintained version control using tools like <b>Maven and Jenkins</b>.</li>
-                        <li>Participated in software testing and deployment on the <b>Azure Cloud</b>.</li>
-                        <li>Managed an offshore development team to ensure project success.</li>
-                        <li>Played a key role in the entire SDLC, including requirement gathering, design, development, and testing.</li>
+                      <li><b>Managed offshore development team</b> for successful project delivery, contributed to <b>Application performance engineering by increasing 100%+ transaction performances</b> with Grafana, Logstash, Telegraf, and Jolokia, and <b>played a key role in the entire SDLC</b>, including requirement gathering, design, development, and testing</li>
+                      <li><b>Developed application architecture</li> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> using Spring Boot, Spring Data JPA, and PostgreSQL. Also created an <b>Anotation based auto generated UI framework</b> for the backend system using AngularJS</li>
+                      <li><b>Built a configurable mock REST API engine</b> using Go language.</li>
+                      <li><b>Implemented Docker Compose and Docker containers</b> for streamlined deployment.</li>
                     </ul>
 
                     <p></p>
@@ -111,15 +90,9 @@
                     <p>
 
                     </p><ul>
-                      <li>Served as a Technical Operator for the <b>Huawei Mediation System</b>.</li>
-                      <li>Developed and utilized <b>Pearl script</b> for efficient handling of different types of data.</li>
-                      <li>Implemented <b>Java script</b> and other similar scripts to manage multiple types of incoming CDR flow.</li>
-                      <li>Contributed to the development of a Rating System.</li>
-                      <li>Managed MVNO Operator Flow control with expertise in Roaming CDR and TAPIN Handling.</li>
-                      <li>Handled and processed multiple types of CDR files from different sources.</li>
-                      <li>Developed a batch file and shell script processing program.</li>
-                      <li>Created functions to handle multiple CDR databases in the <b>UNIX platform</b>.</li>
-                      <li>Developed solutions using <b>Bash Script</b> and the <b>Java language</b>.</li>
+                      <li><b>Served as a Technical Operator</b> for the Huawei Mediation System.</li>
+                      <li><b>Developed and utilized Pearl script</b> for efficient handling of different types of data, implemented <b>Java application</b> for managing multiple types of incoming CDR flow, and contributed to the development of a Rating System.</li>
+                      <li><b>Managed MVNO Operator Flow control with expertise</b> in Roaming CDR and TAPIN Handling, processing multiple types of CDR files from different sources, and developing batch file and shell script processing programs for efficient data handling.</li>
                     </ul>
 
                     <p></p>
@@ -133,16 +106,9 @@
                     <p>
                       
                     </p><ul>
-                      <li>Focused on optimizing the Mobile Phone Billing System across different systems.</li>
-                      <li>Enhanced the provisioning processor for improved performance.</li>
-                      <li>Developed calculations for Data Plan and Roaming Service.</li>
-                      <li>Designed and developed a server for handling SMS messages.</li>
-                      <li>Implemented PDP (Packet Data Protocol) processing for GPRS/HSDPA network.</li>
-                      <li>Developed background job and on-the-fly handling solutions.</li>
-                      <li>Managed systems processing around 30k customer transactions each day with stable performance.</li>
-                      <li>Developed SOAP-based APIs.</li>
-                      <li>Maintained <b>Git</b> workflows for effective version control.</li>
-                      <li>Primarily utilized <b>Java, Apache Camel Framework, Spring Framework, Hibernate, and MVC technique</b>.</li>
+                      <li><b>Optimized the Mobile Billing System, enhanced the provisioning processor, developed calculations</b> for Data Plan and Roaming Service, and <b>designed/implemented</b> a server for handling SMS messages.</li>
+                      <li><b>Implemented PDP (Packet Data Protocol) processor</b> for GPRS/HSDPA network, managed <b>systems processing around 30k customer transactions daily with stable performance</b>, and developed SOAP-based APIs for seamless integration.</li>
+                      <li><b>Maintained Git workflows</b> for effective version control.</li>
                     </ul>
 
                     <p></p>
@@ -157,13 +123,13 @@
 
                 <section>
                     <h3><a href="">BSc (Hons) Business Information Technology (Second Honour)</a></h3>
-                    <time>2013 - 2014</time>
+                    <time>2014</time>
                     <p><i>Coventry University</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Higher Diploma in Telecommunication and Networking</a></h3>
-                    <time>2010 - 2013</time>
+                    <time>2013</time>
                     <p><i>Hong Kong Institute of Vocational Education</i></p>
                     <ul>
                       <li>Intelligent project-show awards of Final Year Project</li>
@@ -177,84 +143,61 @@
 
                 <section>
                     <h3><a href="">Offensive Security Certified Expert 3 (OSCE3)</a></h3>
-                    <time>2022</time>
-                    <p><i>Credential ID 899fbe74-8c5d-4a8c-9bce-b028553af38a</i></p>
                     <p><i>Offensive Security</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Offensive Security Exploit Developer (OSED)</a></h3>
-                    <time>2022</time>
-                    <p><i>Credential ID OSED-31476</i></p>
                     <p><i>Offensive Security</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Offensive Security Experienced Penetration Tester (OSEP)</a></h3>
-                    <time>2022</time>
-                    <p><i>Credential ID OSEP-13552</i></p>
                     <p><i>Offensive Security</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Offensive Security Web Expert (OSWE)</a></h3>
-                    <time>2021</time>
-                    <p><i>Credential ID OS-AWAE-23113</i></p>
                     <p><i>Offensive Security</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Offensive Security Certified Professional (OSCP)</a></h3>
-                    <time>2021</time>
-                    <p><i>Credential ID OS-101-55143</i></p>
                     <p><i>Offensive Security</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">eLearnSecurity Junior Penetration Tester (eJPT)</a></h3>
-                    <time>2021</time>
-                    <p><i>Credential ID 6489718</i></p>
                     <p><i>eLearnSecurity</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Penetration Testing Course - Advanced+ Certificate of Completion</a></h3>
-                    <time>2021</time>
-                    <p><i>Credential ID 2159038631</i></p>
                     <p><i>Virtual Hacking Labs</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Penetration Testing Course - Certificate of Completion</a></h3>
-                    <time>2021</time>
-                    <p><i>Credential ID 2157844761</i></p>
                     <p><i>Virtual Hacking Labs</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Certificate of Azure Fundamentals</a></h3>
-                    <time>2019</time>
-                    <p><i>Credential ID H158-5504</i></p>
                     <p><i>Microsoft Corporation</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Certificate of Data Science Orientation</a></h3>
-                    <time>2016</time>
-                    <p><i>Credential ID 0962ed33282742f19dbc9d263ce02386</i></p>
                     <p><i>Microsoft Corporation / edX</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">ISO27001 Awareness Training</a></h3>
-                    <time>2020</time>
-                    <p><i>Credential ID uBS9hsrWoJ</i></p>
                     <p><i>Evolution Security</i></p>
                 </section>
 
                 <section>
                     <h3><a href="">Certificate of Huawei Mediation Operation & Maintenance</a></h3>
-                    <time>2015</time>
                     <p><i>Huawei Technologies Corporation</i></p>
                 </section>
             </section>
@@ -265,7 +208,7 @@
                 <section>
                     <h3><a href="">Security and Software Development Project</a></h3>
                     <time>Present</time>
-                    <p><i>This section showcases my various projects on GitHub, which include both personal hobbies and contributions to open source projects.</i></p>
+                    <p><i>This section showcases my personal hobbies and contributions to open source projects.</i></p>
                     <ul>
                       <li><strong>OSINT Offensive Toolkit (oott)</strong> - A collection of OSINT tools specifically designed for pentesters and security assessments.</li>
                       <li><strong>Markdown2Openxml.NET</strong> - A C# library that converts Markdown format into OpenXML Word format.</li>
@@ -298,42 +241,43 @@
                 <div class="skill-set">
 
                     <ul>
-                        <li><strong>Research & Development</strong></li>
-                        <li>Go Programming</li>
-                        <li>Java Programming</li>
-                        <li>Spring Framework</li>
-                        <li>C# ASP.NET Programming</li>
-                        <li>PostgreSQL</li>
-                        <li>Oracle SQL</li>
-                        <li>Apache Cassandra</li>
-                        <li>Hibernate</li>
-                        <li>REST Api</li>
-                        <li>Apache Camel</li>
-                        <li>Maven</li>
-                        <li>Checkmarx</li>
+                        <li><strong>Security & Research</strong></li>
+                        <li>Penetration Testing</li>
+                        <li>Red Teaming</li>
+                        <li>Security Code Reviews</li>
+                        <li>Vulnerability Assessment</li>
+                        <li>Threat Reporting</li>
+                        <li>Secure Coding Practices</li>
+                        <li>Burp Suite</li>
+                        <li>Lens</li>
+                        <li>AWS EKS</li>
+                        <li>MobSF</li>
                     </ul>
 
                     <ul>
-                        <li><strong>Web Development</strong></li>
+                        <li><strong>Backend Development</strong></li>
+                        <li>Java</li>
+                        <li>Go Programming</li>
+                        <li>Spring Framework</li>
+                        <li>C# .NET</li>
+                        <li>Spring Boot</li>
+                        <li>Hibernate</li>
+                        <li>PostgreSQL</li>
+                        <li>Oracle SQL</li>
+                        <li>Apache Cassandra</li>
+                        <li>Kafka</li>
+                    </ul>
+
+                    <ul>
+                        <li><strong>Frontend Development</strong></li>
+                        <li>Blazor .NET</li>
                         <li>Vue.js</li>
                         <li>Influx DB</li>
                         <li>CSS / CSSOM</li>
                         <li>MySQL</li>
                         <li>React.js</li>
                         <li>Bootstrap</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Unit Testing</li>
-                        <li>Integration Test</li>
-                        <li>VBA</li>
                         <li>AngularJS</li>
-                    </ul>
-
-                    <ul>
-                        <li><strong>Personal Development</strong></li>
-                        <li>Certificate in PHTLS</li>
-                        <li>Certificate in First Aid</li>
-                        <li>Operation of Automatic External Defibrillator</li>
                     </ul>
                 </div>
 
@@ -346,18 +290,11 @@
                     <h3><a href="">Hong Kong St. John Ambulance Bridge</a></h3>
                     <p><i>Member</i></p>
                     <ul>
-                      <li>First Aid and Emergency Medical Services</li>
+                      <li>As a Medical First Responders provide lifesaving first aid and help reduce the risk of further injury or illness</li>
                       <li>Patient assessment for treatments identification</li>
+                      <li>Certificate in First Aid</li>
+                      <li>Certificate in Operation of Automatic External Defibrillator</li>
                       <li>Certificate on NAEMT's Prehospital Trauma Life Support (PHTLS)</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h3><a href="">Hong Kong Air Cadet Corps</a></h3>
-                    <p><i>Instructor</i></p>
-                    <ul>
-                      <li>To assist the Senior members on training, operation and administrative tasks, etc..</li>
-                      <li>As a Non-commisioned Officer to provide Administration/Operations/Support/Training to the underlying groups</li>
                     </ul>
                 </section>
 
