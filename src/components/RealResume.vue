@@ -241,6 +241,7 @@
                         <li>Red Teaming</li>
                         <li>Security Code Reviews</li>
                         <li>Vulnerability Assessment</li>
+                        <li>Wireless Assessment</li>
                         <li>Network Assessment (VPC, VPN)</li>
                         <li>Threat Reporting</li>
                         <li>Secure Coding Practices</li>
@@ -261,18 +262,22 @@
                         <li>Sumo Logic</li>
                         <li>Transit Gateway</li>
                         <li>Apache Kafka</li>
+                        <li>Cloudflare Workers</li>
                     </ul>
 
                     <ul>
                         <li><strong>CI/CD & Database</strong></li>
+                        <li>SonarCloud / SonarQube</li>
+                        <li>Checkmarx</li>
+                        <li>Semgrep</li>
                         <li>GitHub Actions</li>
                         <li>Circle CI</li>
                         <li>ArgoCD</li>
-                        <li>GitHub Action</li>
                         <li>MySQL</li>
                         <li>PostgreSQL</li>
                         <li>Oracle SQL</li>
                         <li>Influx DB</li>
+                        <li>Apache Cassandra</li>
                     </ul>
                 </div>
 
