@@ -11,7 +11,7 @@
         <aside id="sidebar">
           <h3 class="no-print">Resume</h3>
           <p><a href="https://github.com/sebastian93921" target="_blank" class="no-print"><strong>GitHub profile</strong></a></p>
-          <p><a href="http://strsx.com" class="print-only"><strong>ePortfolio</strong></a></p>
+          <p><a href="https://strsx.com" class="print-only"><strong>ePortfolio:</strong></a></p>
 
           <p><a class="plain" href="mailto:sebastian.ko.dv@gmail.com" target="_blank">
             <strong>Email: sebastian.ko.dv@gmail.com</strong></a>
