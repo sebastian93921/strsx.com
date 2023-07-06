@@ -37,9 +37,9 @@
                     <p>
 
                     </p><ul>
-                      <li><b>Manag and conduct company-wide Red Teaming exercises</b> to assessing the overall strength of organizational defenses across the entire network. Uncovered 10+ Critical or High serverity issues</li>
-                      <li><b>Design, build and maintain internal SIEM system and security tools</b>, including Security automation, API inventory management system, Ticketing system, Reporting system, from scratch using .NET, Java and Go. <b>The tools are used by 2000+ technical employees and security team members, and provide ~2 times faster assessment report constructions</b></li>
-                      <li><b>Perform Penetration Tests, Security Code Reviews and Static analysis (MobSF, Appknox)</b> on Crypto.com Exchange Web and Mobile applications, internal ITSM tools. <b>Found and remediated 15+ Critical or High serverity issues. Lead regular PII hunting and Secrets scanning exercises within company's cloud-base environment</b></li>
+                      <li><b>Manage and conduct company-wide Red Teaming exercises</b> to assess the overall strength of organizational defenses across the entire network. Uncovered 10+ Critical or High severity issues</li>
+                      <li><b>Designed, build, and maintain internal SIEM system and security tools</b>, including Security automation, API inventory management system, Ticketing system, and Reporting system, from scratch using .NET, Java, and Go. <b>The tools are used by 2000+ technical employees and security team members, and provide ~2 times faster assessment report construction</b></li>
+                      <li><b>Perform Penetration Tests, Security Code Reviews, and Static analysis (MobSF, Appknox)</b> on Crypto.com Exchange Web and Mobile applications, and internal ITSM tools. <b>Found and remediated 15+ Critical or High severity issues. Lead regular PII hunting and Secrets scanning exercises within the company's cloud-based environment</b></li>
                       <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and <b>provided expert security advice, guidance, and DevSecOps training</b></li>
                       <li><b>Facilitated global developers Application Security Awareness and Education initiatives</b>, conducting monthly presentations for new employees, power users, and influencers across the company</li>
                     </ul>
@@ -71,9 +71,9 @@
                     <p>
 
                     </p><ul>
-                      <li><b>Managed offshore development team</b> for successful project delivery, contributed to <b>Application performance engineering by increasing 100%+ transaction performances</b> with Grafana, Logstash, Telegraf, and Jolokia, and <b>played a key role in the entire SDLC</b>, including requirement gathering, design, development, and testing</li>
-                      <li><b>Developed application architecture</b> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> from scratch using Spring Boot, Spring Data JPA, and PostgreSQL. Also design and develop an <b>Anotation based auto generated UI framework</b> for the backend system using AngularJS</li>
-                      <li><b>Built a configurable mock REST API engine</b> using Go language.</li>
+                      <li><b>Manage an offshore development team</b> for successful project delivery, contributed to <b>Application performance engineering by increasing 100%+ transaction performances</b> with Grafana, Logstash, Telegraf, and Jolokia, and <b>played a key role in the entire SDLC</b>, including requirement gathering, design, development, and testing</li>
+                      <li><b>Developed application architecture</b> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> from scratch using Spring Boot, Spring Data JPA, and PostgreSQL. Also, designed and develop an <b>Annotation based auto-generated UI framework</b> for the backend system using AngularJS</li>
+                      <li><b>Built a configurable mock REST API engine</b> using the Go language.</li>
                     </ul>
 
                     <p></p>
@@ -285,7 +285,7 @@
                     <h3><a href="">Hong Kong St. John Ambulance Bridge</a></h3>
                     <p><i>Member</i></p>
                     <ul>
-                      <li>As a Medical First Responders provide lifesaving first aid and help reduce the risk of further injury or illness</li>
+                      <li>As Medical First Responders provide lifesaving first aid and help reduce the risk of further injury or illness</li>
                       <li>Patient assessment for treatments identification</li>
                       <li>Certificate in First Aid</li>
                       <li>Certificate in Operation of Automatic External Defibrillator</li>
