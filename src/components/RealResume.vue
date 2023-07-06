@@ -21,7 +21,7 @@
           </p>
           
           <h3>
-            <p id="printfriendly">Right click > Print to print it out.</p>
+            <p id="printfriendly">Right-click > Print to print it out.</p>
             <a id="reopen" href="/" >Back to index</a>
           </h3>
         </aside>
@@ -203,7 +203,7 @@
                 <section>
                     <h3><a href="">Security and Software Development Project</a></h3>
                     <time>Present</time>
-                    <p><i>This section showcases my personal hobbies and contributions to open source projects.</i></p>
+                    <p><i>This section showcases my hobbies and contributions to open-source projects.</i></p>
                     <ul>
                       <li><strong>OSINT Offensive Toolkit (oott)</strong> - A collection of OSINT tools specifically designed for pentesters and security assessments.</li>
                       <li><strong>Markdown2Openxml.NET</strong> - A C# library that converts Markdown format into OpenXML Word format.</li>
@@ -215,7 +215,7 @@
                 </section>
 
                 <section>
-                    <h3><a href="">Enhanced Music Player network systems (The Extened Music Player)</a></h3>
+                    <h3><a href="">Enhanced Music Player network systems (The Extended Music Player)</a></h3>
                     <time>June 2013</time>
                     <p><i>This project was completed as part of my Higher Diploma in Telecommunication and Networking.</i></p>
                     <ul>
@@ -256,7 +256,7 @@
                         <li>Spring Boot</li>
                         <li>Blazor .NET</li>
                         <li>Spring Boot</li>
-                        <li>Lens / Kubernates</li>
+                        <li>Lens / Kubernetes</li>
                         <li>Elasticsearch / Elastic Cloud</li>
                         <li>Sumo Logic</li>
                         <li>Apache Cassandra</li>
