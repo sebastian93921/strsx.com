@@ -251,7 +251,7 @@
 
                     <ul>
                         <li><strong>Development</strong></li>
-                        <li>Languages (Java, Go, C#, JS)</li>
+                        <li>Languages (Java, Go, C#, js)</li>
                         <li>Linux / Unix / Windows AD</li>
                         <li>Scripting (Python, Bash)</li>
                         <li>Blazor .NET</li>
