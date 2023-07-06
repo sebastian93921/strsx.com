@@ -138,32 +138,38 @@
 
                 <section>
                     <h3><a href="">Offensive Security</a></h3>
-                    <ul>
-                      <li><i>Offensive Security Certified Expert 3 (OSCE3)</i></li>
-                      <li><i>Offensive Security Experienced Penetration Tester (OSEP)</i></li>
-                      <li><i>Offensive Security Exploit Developer (OSED)</i></li>
-                      <li><i>Offensive Security Web Expert (OSWE)</i></li>
-                      <li><i>Offensive Security Certified Professional (OSCP)</i></li>
-                    </ul>
+                    <p>
+                      <ul>
+                        <li><i>Offensive Security Certified Expert 3 (OSCE3)</i></li>
+                        <li><i>Offensive Security Experienced Penetration Tester (OSEP)</i></li>
+                        <li><i>Offensive Security Exploit Developer (OSED)</i></li>
+                        <li><i>Offensive Security Web Expert (OSWE)</i></li>
+                        <li><i>Offensive Security Certified Professional (OSCP)</i></li>
+                      </ul>
+                    </p>
                 </section>
 
                 <section>
                     <h3><a href="">Penetration Testing</a></h3>
-                    <ul>
-                      <li><i>eLearnSecurity Junior Penetration Tester (eJPT)</i></li>
-                      <li><i>Penetration Testing Course - Advanced+ Certificate of Completion</i></li>
-                      <li><i>Penetration Testing Course - Certificate of Completion</i></li>
-                    </ul>
+                    <p>
+                      <ul>
+                        <li><i>eLearnSecurity Junior Penetration Tester (eJPT)</i></li>
+                        <li><i>Penetration Testing Course - Advanced+ Certificate of Completion</i></li>
+                        <li><i>Penetration Testing Course - Certificate of Completion</i></li>
+                      </ul>
+                    </p>
                 </section>
 
                 <section>
                     <h3><a href="">Others</a></h3>
-                    <ul>
-                      <li><i>Certificate of Azure Fundamentals</i></li>
-                      <li><i>Certificate of Data Science Orientation</i></li>
-                      <li><i>Certificate of Huawei Mediation Operation & Maintenance</i></li>
-                      <li><i>ISO27001 Awareness Training</i></li>
-                    </ul>
+                    <p>
+                      <ul>
+                        <li><i>Certificate of Azure Fundamentals</i></li>
+                        <li><i>Certificate of Data Science Orientation</i></li>
+                        <li><i>Certificate of Huawei Mediation Operation & Maintenance</i></li>
+                        <li><i>ISO27001 Awareness Training</i></li>
+                      </ul>
+                    </p>
                 </section>
 
             </section>
