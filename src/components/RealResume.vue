@@ -246,7 +246,7 @@
                         <li>Incident Response and Forensics</li>
                         <li>Burp Suite & Metasploit</li>
                         <li>Cloud Security (AWS, Azure, IAM, KMS)</li>
-                        <li>Network Security (VPCs, IDS/IPS, VPNs, Transit Gateway)</li>
+                        <li>Network Security (VPC, VPN, Transit Gateway)</li>
                     </ul>
 
                     <ul>
