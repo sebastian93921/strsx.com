@@ -137,64 +137,29 @@
                 <h2>Related Certification</h2>
 
                 <section>
-                    <h3><a href="">Offensive Security Certified Expert 3 (OSCE3)</a></h3>
-                    <p><i>Offensive Security</i></p>
+                    <h3><a href="">Offensive Security</a></h3>
+                    <p><i>Offensive Security Certified Expert 3 (OSCE3)</i></p>
+                    <p><i>Offensive Security Experienced Penetration Tester (OSEP)</i></p>
+                    <p><i>Offensive Security Exploit Developer (OSED)</i></p>
+                    <p><i>Offensive Security Web Expert (OSWE)</i></p>
+                    <p><i>Offensive Security Certified Professional (OSCP)</i></p>
                 </section>
 
                 <section>
-                    <h3><a href="">Offensive Security Exploit Developer (OSED)</a></h3>
-                    <p><i>Offensive Security</i></p>
+                    <h3><a href="">Penetration Test</a></h3>
+                    <p><i>eLearnSecurity Junior Penetration Tester (eJPT)</i></p>
+                    <p><i>Penetration Testing Course - Advanced+ Certificate of Completion</i></p>
+                    <p><i>Penetration Testing Course - Certificate of Completion</i></p>
                 </section>
 
                 <section>
-                    <h3><a href="">Offensive Security Experienced Penetration Tester (OSEP)</a></h3>
-                    <p><i>Offensive Security</i></p>
+                    <h3><a href="">Others</a></h3>
+                    <p><i>Certificate of Azure Fundamentals</i></p>
+                    <p><i>Certificate of Data Science Orientation</i></p>
+                    <p><i>Certificate of Huawei Mediation Operation & Maintenance</i></p>
+                    <p><i>ISO27001 Awareness Training</i></p>
                 </section>
 
-                <section>
-                    <h3><a href="">Offensive Security Web Expert (OSWE)</a></h3>
-                    <p><i>Offensive Security</i></p>
-                </section>
-
-                <section>
-                    <h3><a href="">Offensive Security Certified Professional (OSCP)</a></h3>
-                    <p><i>Offensive Security</i></p>
-                </section>
-
-                <section>
-                    <h3><a href="">eLearnSecurity Junior Penetration Tester (eJPT)</a></h3>
-                    <p><i>eLearnSecurity</i></p>
-                </section>
-
-                <section>
-                    <h3><a href="">Penetration Testing Course - Advanced+ Certificate of Completion</a></h3>
-                    <p><i>Virtual Hacking Labs</i></p>
-                </section>
-
-                <section>
-                    <h3><a href="">Penetration Testing Course - Certificate of Completion</a></h3>
-                    <p><i>Virtual Hacking Labs</i></p>
-                </section>
-
-                <section>
-                    <h3><a href="">Certificate of Azure Fundamentals</a></h3>
-                    <p><i>Microsoft Corporation</i></p>
-                </section>
-
-                <section>
-                    <h3><a href="">Certificate of Data Science Orientation</a></h3>
-                    <p><i>Microsoft Corporation / edX</i></p>
-                </section>
-
-                <section>
-                    <h3><a href="">ISO27001 Awareness Training</a></h3>
-                    <p><i>Evolution Security</i></p>
-                </section>
-
-                <section>
-                    <h3><a href="">Certificate of Huawei Mediation Operation & Maintenance</a></h3>
-                    <p><i>Huawei Technologies Corporation</i></p>
-                </section>
             </section>
 
             <section id="achievement" class="list">
