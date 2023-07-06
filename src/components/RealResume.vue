@@ -37,12 +37,10 @@
                     <p>
 
                     </p><ul>
-                      <li><b>Managed and conducted company-wide Red Teaming exercises</b> to simulate attacker objectives and actions, assessing the overall strength of organizational defenses across the entire network</li>
-                      <li><b>Performed Penetration Tests and Security Code Reviews</b>, assessed vulnerabilities using industry-standard methodologies, and <b>remediated 10+ critical or high severity issues</b></li>
-                      <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and provided <b>expert security advice, guidance, and DevSecOps training</b></li>
-                      <li><b>Invented and developed security tools</b> using ASP.NET, Spring, and Go with automated test and scanning processes. <b>Achieved 100% faster assessment report construction</b></li>
-                      <li><b>Utilized specialized tools</b> for mobile application scanning and testing on Android and iOS platforms, and <b>proactively hunted for PII</b> in cloud-based environments</li>
-                      <li><b>Designed and developed</b> an API Inventory Management System and read-only database querying tool. Participated in software testing and deployment on cloud-based environments (AWS and Azure). <b>Performed CI/CD Automation</b> using Circle CI, GitHub Actions, and ArgoCD. Reviewed and developed applications in Go, Java, C# .NET, and Python</li>
+                      <li><b>Manag and conduct company-wide Red Teaming exercises</b> to assessing the overall strength of organizational defenses across the entire network. Uncovered 10+ Critical or High serverity issues</li>
+                      <li><b>Design, build and maintain internal SIEM system and security tools</b>, including Security automation, API inventory management system, Ticketing system, Reporting system, from scratch using .NET, Java and Go. <b>The tools are used by 2000+ technical employees and security team members, and provide ~2 times faster assessment report constructions</b></li>
+                      <li><b>Perform Penetration Tests, Security Code Reviews and Static analysis (MobSF, Appknox)</b> on Crypto.com Exchange Web and Mobile applications, internal ITSM tools. <b>Found and remediated 15+ Critical or High serverity issues. Lead regular PII hunting and Secrets scanning exercises within company's cloud-base environment</b></li>
+                      <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and <b>provided expert security advice, guidance, and DevSecOps training</b></li>
                       <li><b>Facilitated global developers Application Security Awareness and Education initiatives</b>, conducting monthly presentations for new employees, power users, and influencers across the company</li>
                     </ul>
 
@@ -74,9 +72,8 @@
 
                     </p><ul>
                       <li><b>Managed offshore development team</b> for successful project delivery, contributed to <b>Application performance engineering by increasing 100%+ transaction performances</b> with Grafana, Logstash, Telegraf, and Jolokia, and <b>played a key role in the entire SDLC</b>, including requirement gathering, design, development, and testing</li>
-                      <li><b>Developed application architecture</b> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> using Spring Boot, Spring Data JPA, and PostgreSQL. Also created an <b>Anotation based auto generated UI framework</b> for the backend system using AngularJS</li>
+                      <li><b>Developed application architecture</b> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> from scratch using Spring Boot, Spring Data JPA, and PostgreSQL. Also design and develop an <b>Anotation based auto generated UI framework</b> for the backend system using AngularJS</li>
                       <li><b>Built a configurable mock REST API engine</b> using Go language.</li>
-                      <li><b>Implemented Docker Compose and Docker containers</b> for streamlined deployment.</li>
                     </ul>
 
                     <p></p>
@@ -90,9 +87,8 @@
                     <p>
 
                     </p><ul>
-                      <li><b>Served as a Technical Operator</b> for the Huawei Mediation System.</li>
-                      <li><b>Developed and utilized Pearl script</b> for efficient handling of different types of data, implemented <b>Java application</b> for managing multiple types of incoming CDR flow, and contributed to the development of a Rating System.</li>
-                      <li><b>Managed MVNO Operator Flow control with expertise</b> in Roaming CDR and TAPIN Handling, processing multiple types of CDR files from different sources, and developing batch file and shell script processing programs for efficient data handling.</li>
+                      <li><b>Developed and utilized Pearl script</b> for efficient handling of different types of data, implemented <b>Java application</b> for managing multiple types of incoming CDR flow, and contributed to the development of a Rating System</li>
+                      <li><b>Managed MVNO Operator Flow control with expertise</b> in Roaming CDR and TAPIN Handling, processing multiple types of CDR files from different sources, and developing batch file and shell script processing programs for efficient data handling</li>
                     </ul>
 
                     <p></p>
@@ -106,9 +102,8 @@
                     <p>
                       
                     </p><ul>
-                      <li><b>Optimized the Mobile Billing System, enhanced the provisioning processor, developed calculations</b> for Data Plan and Roaming Service, and <b>designed/implemented</b> a server for handling SMS messages.</li>
-                      <li><b>Implemented PDP (Packet Data Protocol) processor</b> for GPRS/HSDPA network, managed <b>systems processing around 30k customer transactions daily with stable performance</b>, and developed SOAP-based APIs for seamless integration.</li>
-                      <li><b>Maintained Git workflows</b> for effective version control.</li>
+                      <li><b>Optimized the Mobile Billing System, enhanced the provisioning processor, developed calculations</b> for Data Plan and Roaming Service, and <b>designed/implemented</b> a server for handling SMS messages</li>
+                      <li><b>Implemented PDP (Packet Data Protocol) processor</b> for GPRS/HSDPA network, managed <b>systems processing around 30k+ customer transactions daily with stable performance</b>, and developed SOAP-based APIs for seamless integration</li>
                     </ul>
 
                     <p></p>
@@ -241,43 +236,43 @@
                 <div class="skill-set">
 
                     <ul>
-                        <li><strong>Security & Research</strong></li>
-                        <li>Penetration Testing</li>
+                        <li><strong>Security</strong></li>
+                        <li>Penetration Testing (Web, Mobile)</li>
                         <li>Red Teaming</li>
                         <li>Security Code Reviews</li>
                         <li>Vulnerability Assessment</li>
                         <li>Threat Reporting</li>
                         <li>Secure Coding Practices</li>
-                        <li>Burp Suite</li>
-                        <li>Lens</li>
-                        <li>AWS EKS</li>
-                        <li>MobSF</li>
+                        <li>Incident Response and Forensics</li>
+                        <li>Burp Suite & Metasploit</li>
+                        <li>Cloud Security (AWS, Azure, IAM, KMS)</li>
+                        <li>Network Security (VPCs, IDS/IPS, VPNs, Transit Gateway)</li>
                     </ul>
 
                     <ul>
-                        <li><strong>Backend Development</strong></li>
-                        <li>Java</li>
-                        <li>Go Programming</li>
-                        <li>Spring Framework</li>
-                        <li>C# .NET</li>
+                        <li><strong>Development</strong></li>
+                        <li>Languages (Java, Go, C# .NET, Python, Javascript)</li>
+                        <li>Linux / Unix </li>
                         <li>Spring Boot</li>
-                        <li>Hibernate</li>
+                        <li>Blazor .NET</li>
+                        <li>Spring Boot</li>
+                        <li>Lens / Kubernates</li>
+                        <li>Elasticsearch / Elastic Cloud</li>
+                        <li>Sumo Logic</li>
+                        <li>Apache Cassandra</li>
+                        <li>Apache Kafka</li>
+                    </ul>
+
+                    <ul>
+                        <li><strong>CI/CD & Database</strong></li>
+                        <li>GitHub Actions</li>
+                        <li>Circle CI</li>
+                        <li>ArgoCD</li>
+                        <li>GitHub Action</li>
+                        <li>MySQL</li>
                         <li>PostgreSQL</li>
                         <li>Oracle SQL</li>
-                        <li>Apache Cassandra</li>
-                        <li>Kafka</li>
-                    </ul>
-
-                    <ul>
-                        <li><strong>Frontend Development</strong></li>
-                        <li>Blazor .NET</li>
-                        <li>Vue.js</li>
                         <li>Influx DB</li>
-                        <li>CSS / CSSOM</li>
-                        <li>MySQL</li>
-                        <li>React.js</li>
-                        <li>Bootstrap</li>
-                        <li>AngularJS</li>
                     </ul>
                 </div>
 
