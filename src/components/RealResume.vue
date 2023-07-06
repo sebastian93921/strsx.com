@@ -241,12 +241,12 @@
                         <li>Red Teaming</li>
                         <li>Security Code Reviews</li>
                         <li>Vulnerability Assessment</li>
+                        <li>Network Assessment (VPC, VPN, Transit Gateway)</li>
                         <li>Threat Reporting</li>
                         <li>Secure Coding Practices</li>
                         <li>Incident Response and Forensics</li>
                         <li>Burp Suite & Metasploit</li>
                         <li>Cloud Security (AWS, Azure, IAM, KMS)</li>
-                        <li>Network Security (VPC, VPN, Transit Gateway)</li>
                     </ul>
 
                     <ul>
