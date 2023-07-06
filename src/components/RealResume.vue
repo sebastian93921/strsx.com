@@ -236,7 +236,7 @@
                 <div class="skill-set">
 
                     <ul>
-                        <li><strong>Security</strong></li>
+                        <li><strong>Cybersecurity</strong></li>
                         <li>Penetration Testing (Web, Mobile)</li>
                         <li>Red Teaming</li>
                         <li>Security Code Reviews</li>
