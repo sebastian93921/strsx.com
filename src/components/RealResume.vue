@@ -187,7 +187,7 @@
                       <li><strong>burp-payload-tester</strong> - A Burp Suite plugin for automated testing of each field in a specific API.</li>
                       <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - A simple multithreaded TCP listener for reverse shell connections.</li>
                       <li><strong>strsx.com</strong> - My ePortfolio website, which serves as a showcase of my work.</li>
-                      <li><a href="https://github.com/sebastian93921/" target="_blank">Click here to visit my GitHub profile</a>.</li>
+                      <li><a href="https://github.com/sebastian93921/" target="_blank">Click here to visit my GitHub profile</a></li>
                     </ul>
                 </section>
 
@@ -370,13 +370,15 @@ Print styles
 --------------------------------------------------------- */
 @media print {
   * {
-    color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
     background: transparent !important; }
   html {
     background-color: #fff;
     height: auto !important; }
+  p, div, h1, h2, strong {
+    color: #111111!important;
+  }
   #sidebar {
     border: none !important; 
     margin-bottom: -2rem;
