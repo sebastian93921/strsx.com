@@ -146,7 +146,7 @@
                 </section>
 
                 <section>
-                    <h3><a href="">Penetration Test</a></h3>
+                    <h3><a href="">Penetration Testing</a></h3>
                     <p><i>eLearnSecurity Junior Penetration Tester (eJPT)</i></p>
                     <p><i>Penetration Testing Course - Advanced+ Certificate of Completion</i></p>
                     <p><i>Penetration Testing Course - Certificate of Completion</i></p>
