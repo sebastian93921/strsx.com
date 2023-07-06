@@ -241,7 +241,7 @@
                         <li>Red Teaming</li>
                         <li>Security Code Reviews</li>
                         <li>Vulnerability Assessment</li>
-                        <li>Network Assessment (VPC, VPN, Transit Gateway)</li>
+                        <li>Network Assessment (VPC, VPN)</li>
                         <li>Threat Reporting</li>
                         <li>Secure Coding Practices</li>
                         <li>Incident Response and Forensics</li>
@@ -251,15 +251,15 @@
 
                     <ul>
                         <li><strong>Development</strong></li>
-                        <li>Languages (Java, Go, C# .NET, Python, Javascript)</li>
-                        <li>Linux / Unix </li>
-                        <li>Spring Boot</li>
+                        <li>Languages (Java, Go, C#, JS)</li>
+                        <li>Linux / Unix / Windows AD</li>
+                        <li>Scripting (Python, Bash)</li>
                         <li>Blazor .NET</li>
                         <li>Spring Boot</li>
                         <li>Lens / Kubernetes</li>
                         <li>Elasticsearch / Elastic Cloud</li>
                         <li>Sumo Logic</li>
-                        <li>Apache Cassandra</li>
+                        <li>Transit Gateway</li>
                         <li>Apache Kafka</li>
                     </ul>
 
