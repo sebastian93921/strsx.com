@@ -246,7 +246,7 @@
                         <li><strong>CI/CD & Database</strong></li>
                         <li>SonarCloud / SonarQube</li>
                         <li>Checkmarx</li>
-                        <li>Semgrep</li>
+                        <li>Semgrep (SAST)</li>
                         <li>GitHub Actions</li>
                         <li>Circle CI</li>
                         <li>ArgoCD</li>
