@@ -43,7 +43,7 @@
                       <li><b>Research and perform Prompts attack, Restriction bypass, Backdooring the model, and Exfiltration</b> Red Teaming attacks on AI/LLMs projects to identify vulnerabilities and improve overall security</li>
                       <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and <b>provided expert security advice, guidance, and DevSecOps training</b></li>
                       <li><b>Facilitated global developers Application Security Awareness and Education initiatives</b>, conducting monthly presentations for new employees, power users, and influencers across the company</li>
-                      <li><b>Managing bug bounty initiatives</b> for Crypto.com Products</li>
+                      <li><b>Managing HackerOne bug bounty program</b> for Crypto.com Products</li>
                     </ul>
 
                     <p></p>
