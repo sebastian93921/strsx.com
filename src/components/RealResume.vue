@@ -43,6 +43,7 @@
                       <li><b>Research and perform Prompts attack, Restriction bypass, Backdooring the model, and Exfiltration</b> Red Teaming attacks on AI/LLMs projects to identify vulnerabilities and improve overall security</li>
                       <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and <b>provided expert security advice, guidance, and DevSecOps training</b></li>
                       <li><b>Facilitated global developers Application Security Awareness and Education initiatives</b>, conducting monthly presentations for new employees, power users, and influencers across the company</li>
+                      <li><b>Managing bug bounty initiatives</b> for Crypto.com Products</li>
                     </ul>
 
                     <p></p>
@@ -74,7 +75,7 @@
                     </p><ul>
                       <li><b>Manage an offshore development team</b> for successful project delivery, contributed to <b>Application performance engineering by increasing 100%+ transaction performances</b> with Grafana, Logstash, Telegraf, and Jolokia, and <b>played a key role in the entire SDLC</b>, including requirement gathering, design, development, and testing</li>
                       <li><b>Developed application architecture</b> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> from scratch using Spring Boot, Spring Data JPA, and PostgreSQL. Also, designed and develop an <b>Annotation based auto-generated UI framework</b> for the backend system using AngularJS</li>
-                      <li><b>Built a configurable mock REST API engine</b> using the Go language.</li>
+                      <li><b>Built a configurable mock REST API engine</b> using the Go language</li>
                     </ul>
 
                     <p></p>
@@ -179,30 +180,27 @@
                 <h2>Achievement</h2>
 
                 <section>
-                    <h3><a href="">Security and Software Development Project</a></h3>
+                    <h3><a href="">HackerOne bug bounty programs</a></h3>
                     <time>Present</time>
-                    <p><i>This section showcases my hobbies and contributions to open-source projects.</i></p>
+                    <p><i>Actively engage in HackerOne bug bounty programs for third-party companies</i></p>
                     <ul>
-                      <li><strong>OSINT Offensive Toolkit (oott)</strong> - A collection of OSINT tools specifically designed for pentesters and security assessments.</li>
-                      <li><strong>Markdown2Openxml.NET</strong> - A C# library that converts Markdown format into OpenXML Word format.</li>
-                      <li><strong>burp-payload-tester</strong> - A Burp Suite plugin for automated testing of each field in a specific API.</li>
-                      <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - A simple multithreaded TCP listener for reverse shell connections.</li>
-                      <li><strong>strsx.com</strong> - My ePortfolio website, which serves as a showcase of my work.</li>
-                      <li><a href="https://github.com/sebastian93921/" target="_blank">Click here to visit my GitHub profile</a></li>
+                      <li><b>Identified and reported security vulnerabilities</b>, contributing to the improvement of software and systems</li>
+                      <li><b>Specialized in identifying and reporting security vulnerabilities, with a focus on Improper Access Control, XSS, and Race Condition Attacks</b></li>
+                      <li>Demonstrated strong understanding of web application security and ethical hacking techniques</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h3><a href="">Enhanced Music Player network systems (The Extended Music Player)</a></h3>
-                    <time>June 2013</time>
-                    <p><i>This project was completed as part of my Higher Diploma in Telecommunication and Networking.</i></p>
+                    <h3><a href="">Security and Software Development Project</a></h3>
+                    <time>Present</time>
+                    <p><i>This section showcases my hobbies and contributions to open-source projects</i></p>
                     <ul>
-                      <li><strong>Intelligent Project Showcase Awards</strong></li>
-                      <li>Built using Java programming language</li>
-                      <li>Designed and developed a feature-rich music player application</li>
-                      <li>Implemented a scalable and traffic-controllable cloud music streaming server structure</li>
-                      <li>Developed both the Music Player application and the Cloud Server with backend systems</li>
-                      <li><a href="https://github.com/sebastian93921/FYProjects" target="_blank">Click here to visit the project's GitHub repository</a></li>
+                      <li><strong>OSINT Offensive Toolkit (oott)</strong> - A collection of OSINT tools specifically designed for pentesters and security assessments</li>
+                      <li><strong>Markdown2Openxml.NET</strong> - A C# library that converts Markdown format into OpenXML Word format</li>
+                      <li><strong>burp-payload-tester</strong> - A Burp Suite plugin for automated testing of each field in a specific API</li>
+                      <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - A simple multithreaded TCP listener for reverse shell connections</li>
+                      <li><strong>strsx.com</strong> - My ePortfolio website, which serves as a showcase of my work</li>
+                      <li><a href="https://github.com/sebastian93921/" target="_blank">Click here to visit my GitHub profile</a></li>
                     </ul>
                 </section>
 
