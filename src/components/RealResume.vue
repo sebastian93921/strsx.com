@@ -43,7 +43,7 @@
                       <li><b>Research and perform Prompts attack, Restriction bypass, Backdooring the model, and Exfiltration</b> Red Teaming attacks on AI/LLMs projects to identify vulnerabilities and improve overall security</li>
                       <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and <b>provided expert security advice, guidance, and DevSecOps training</b></li>
                       <li><b>Facilitated global developers Application Security Awareness and Education initiatives</b>, conducting monthly presentations for new employees, power users, and influencers across the company</li>
-                      <li><b>Managing HackerOne bug bounty program</b> for Crypto.com Products</li>
+                      <li><b>Manage and verify findings from white hat hackers as part of the HackerOne Bug Bounty Program</b> for Crypto.com Products</li>
                     </ul>
 
                     <p></p>
@@ -180,9 +180,9 @@
                 <h2>Achievement</h2>
 
                 <section>
-                    <h3><a href="">HackerOne bug bounty programs</a></h3>
+                    <h3><a href="">HackerOne Bug Bounty Programs</a></h3>
                     <time>Present</time>
-                    <p><i>Actively engage in HackerOne bug bounty programs for third-party companies</i></p>
+                    <p><i>Actively engage in HackerOne Bug Bounty Programs for third-party companies</i></p>
                     <ul>
                       <li><b>Identified and reported security vulnerabilities</b>, contributing to the improvement of software and systems</li>
                       <li><b>Specialized in identifying and reporting security vulnerabilities, with a focus on Improper Access Control, XSS, and Race Condition Attacks</b></li>
