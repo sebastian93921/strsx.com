@@ -33,13 +33,13 @@
                 <section>
                     <h3><a href="" target="_blank">Crypto.com</a></h3>
                     <time>April 2021 - Present</time>
-                    <p><i>Senior Application Security Engineer</i></p>
+                    <p><i>Senior Engineer/Penetration Tester, Application Security</i></p>
                     <p>
 
                     </p><ul>
                       <li><b>Manage and conduct company-wide Red Teaming exercises</b> to assess the overall strength of organizational defenses across the entire network. Uncovered 10+ Critical or High severity issues</li>
                       <li><b>Designed, build, and maintain internal SIEM system and security tools</b>, including Security automation, API inventory management system, Ticketing system, and Reporting system, from scratch using .NET, Java, and Go. <b>The tools are used by 2000+ technical employees and security team members, and provide ~2 times faster assessment report construction</b></li>
-                      <li><b>Perform Penetration Tests, Security Code Reviews, and Static analysis (MobSF, Appknox)</b> on Crypto.com Exchange Web and Mobile applications, and internal ITSM tools, <b>with 100% on-time delivery of high-quality, industrial standard reports. Lead regular PII hunting and Secrets scanning exercises within the company's cloud-based environment</b></li>
+                      <li><b>Perform Penetration Tests, Security Code Reviews, and Static analysis (MobSF, Appknox)</b> on Crypto.com Exchange Web and Mobile applications, and internal ITSM tools, <b>with 100% on-time delivery of high-quality, industry standard reports. Lead regular PII hunting and Secrets scanning exercises within the company's cloud-based environment</b></li>
                       <li><b>Research and perform Prompts attack, Restriction bypass, Backdooring the model, and Exfiltration</b> Red Teaming attacks on AI/LLMs projects to identify vulnerabilities and improve overall security</li>
                       <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and <b>provided expert security advice, guidance, and DevSecOps training</b></li>
                       <li><b>Facilitated global developers Application Security Awareness and Education initiatives</b>, conducting monthly presentations for new employees, power users, and influencers across the company</li>
