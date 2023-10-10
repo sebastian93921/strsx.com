@@ -3,7 +3,7 @@
     <div class="header-container">
       <header class="wrapper clearfix">
         <h1 class="title">Sebastian Ko</h1>
-        <p>Senior Application Security Engineer | OSCE3 | OSEP | OSWE | OSED | OSCP </p>
+        <p>Senior Application Security Engineer | OSCE3 | CISSP </p>
       </header>
     </div>
     <main class="main-container">
@@ -137,6 +137,15 @@
 
             <section id="certification" class="list">
                 <h2>Related Certification</h2>
+
+                <section>
+                    <h3><a href="">ISC2</a></h3>
+                    <p>
+                      <ul>
+                        <li><i>Certified Information Systems Security Professional (CISSP)</i></li>
+                      </ul>
+                    </p>
+                </section>
 
                 <section>
                     <h3><a href="">Offensive Security</a></h3>
