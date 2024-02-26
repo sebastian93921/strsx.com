@@ -165,6 +165,7 @@
                     <h3><a href="">Others</a></h3>
                     <p>
                       <ul>
+                        <li><i>DeepLearning.AI - Neural Networks and Deep Learning</i></li>
                         <li><i>Certificate of Azure Fundamentals</i></li>
                         <li><i>Certificate of Data Science Orientation</i></li>
                       </ul>
