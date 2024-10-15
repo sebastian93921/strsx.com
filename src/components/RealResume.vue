@@ -162,11 +162,19 @@
                 </section>
 
                 <section>
-                    <h3><a href="">Others</a></h3>
+                    <h3><a href="">Artificial Intelligence</a></h3>
                     <p>
                       <ul>
                         <li><i>DeepLearning.AI - Machine Learning Specialization</i></li>
                         <li><i>DeepLearning.AI - Neural Networks and Deep Learning</i></li>
+                      </ul>
+                    </p>
+                </section>
+
+                <section>
+                    <h3><a href="">Others</a></h3>
+                    <p>
+                      <ul>
                         <li><i>Certificate of Azure Fundamentals</i></li>
                         <li><i>Certificate of Data Science Orientation</i></li>
                       </ul>
