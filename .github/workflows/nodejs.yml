@@ -12,9 +12,9 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Use specific node version
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
-        node-version: '14'
+        node-version: '21'
 
     - name: Build
       run: |
@@ -23,7 +23,7 @@ jobs:
         cd dist && cp index.html 404.html
         
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
         GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         BRANCH: gh-pages
