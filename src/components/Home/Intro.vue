@@ -40,7 +40,7 @@ const typeArray = [
     "",
     "<p style='color: #dbdbdb'>Developer, Reviewer & Pentester, Hong Kong</p>",
     "",
-    "> AI LLM Research and Development",
+    "> AI/LLM Programming",
     "> Backend system review & pentesting",
     "> Test automation"
 ];
