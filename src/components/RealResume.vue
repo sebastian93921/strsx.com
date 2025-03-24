@@ -39,8 +39,8 @@
                       <li><b>Designed, build, and maintain internal SIEM system and security tools</b>, including Security automation, API inventory management system, Ticketing system, and Reporting system, from scratch using .NET, Java, and Go. <b>The tools are used by 2000+ technical employees and security team members, and provide ~2 times faster assessment report construction</b></li>
                       <li><b>Perform Penetration Tests, Security Code Reviews, and Static analysis (MobSF, Appknox)</b> on Crypto.com Exchange Web and Mobile applications, and internal ITSM tools, <b>with 100% on-time delivery of high-quality, industry standard reports. Lead regular PII hunting and Secrets scanning exercises within the company's cloud-based environment</b></li>
                       <li><b>Research and perform Prompts attack, Restriction bypass, Backdooring the model, and Exfiltration</b> Red Teaming attacks on AI/LLMs projects to identify vulnerabilities and improve overall security</li>
-                      <li><b>Collaborated with software engineering teams</b> to integrate security practices throughout the SDLC and <b>provided expert security advice, guidance, and DevSecOps training</b></li>
-                      <li><b>Facilitated global developers Application Security Awareness and Education initiatives</b>, conducting monthly presentations for new employees, power users, and influencers across the company</li>
+                      <li><b>Developed and implemented AI-driven security solutions</b>, including an AI-powered PII Hunting System, AI Malware Detection system</li>
+                      <li><b>Collaborated with software engineering teams</b> and provided <b>expert security advice, guidance, and DevSecOps training</b></li>
                       <li><b>Manage and verify 50+ Critical findings every week from Bug Bounty Program</b> for Crypto.com Products</li>
                     </ul>
 
@@ -156,7 +156,7 @@
                 </section>
 
                 <section>
-                    <h3><a href="">Others</a></h3>
+                    <h3><a href="">Development</a></h3>
                     <ul>
                       <li><i>Certificate of Azure Fundamentals</i></li>
                       <li><i>Certificate of Data Science Orientation</i></li>
@@ -206,7 +206,7 @@
                         <li>Red Teaming</li>
                         <li>Security Code Reviews</li>
                         <li>Vulnerability Assessment</li>
-                        <li>Wireless Assessment</li>
+                        <li>AI/LLM Security Testing</li>
                         <li>Network Assessment (VPC, VPN)</li>
                         <li>Threat Reporting</li>
                         <li>Secure Coding Practices</li>
@@ -217,15 +217,15 @@
 
                     <ul>
                         <li><strong>Development</strong></li>
+                        <li>AI/LLM Programming</li>
                         <li>Languages (Java, Go, C#, js)</li>
-                        <li>Linux / Unix / Windows AD</li>
                         <li>Scripting (Python, Bash)</li>
+                        <li>Linux / Unix / Windows AD</li>
                         <li>Blazor .NET</li>
                         <li>Spring Boot</li>
                         <li>Lens / Kubernetes</li>
                         <li>Elasticsearch / Elastic Cloud</li>
                         <li>Sumo Logic</li>
-                        <li>Transit Gateway</li>
                         <li>Apache Kafka</li>
                         <li>Cloudflare Workers</li>
                     </ul>
@@ -303,12 +303,11 @@ section{
 #resume .main h2{
   font-size: 1.6em;
   margin-top: 40px;
-  margin-bottom: 10px;
 }
 
 #resume .main h3{
   color: white;
-  margin-top: 1em;
+  margin-top: 0.5em;
   font-size: 1.4em;
 }
 
@@ -496,24 +495,33 @@ Print styles
 ========================================================================== */
 #resume .list {
   time {
-    float: right; }
+    float: right;
+  }
 
   section {
     border-bottom: 1px solid #a30404;
     font-size: small;
-    margin-left: 1em; }
+    margin-left: 1em;
+    clear: both;
+    overflow: hidden;
+  }
 
   p {
     margin-top: 0;
     margin-bottom: 0.3em;
-    clear: left; }
+    clear: left;
+  }
 
   h3 {
-    float: left;
-    margin-bottom: 0;
-    margin-top: 0.2em;
     font-size: 1.4em;
-    letter-spacing: -.1rem; }
+    display: block;
+    width: 100%;
+  }
+
+  ul {
+    clear: both;
+    padding-left: 1.5em;
+  }
 }
 
 #reopen #resume{
@@ -522,6 +530,7 @@ Print styles
     color: white; }
 
 #resume .skill-set {
+  margin-top: 0.5em;
   font-size: small;
   margin-bottom: 16px;
   overflow: auto; }
