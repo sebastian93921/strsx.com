@@ -44,7 +44,7 @@ defineProps({
 });
 
 defineOptions({
-    name: 'home'
+    name: 'HomePage'
 });
 
 const intro = gsap.timeline();

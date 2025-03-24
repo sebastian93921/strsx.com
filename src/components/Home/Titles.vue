@@ -13,6 +13,6 @@ defineProps({
 });
 
 defineOptions({
-    name: 'Titles'
+    name: 'TitlesSection'
 });
 </script>

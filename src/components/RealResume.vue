@@ -34,9 +34,7 @@
                     <h3><a href="" target="_blank">Crypto.com</a></h3>
                     <time>April 2021 - Present</time>
                     <p><i>Senior Engineer/Penetration Tester, Application Security</i></p>
-                    <p>
-
-                    </p><ul>
+                    <p></p><ul>
                       <li><b>Manage and conduct company-wide Red Teaming exercises</b> to assess the overall strength of organizational defenses across the entire network. Uncovered 10+ Critical or High severity issues</li>
                       <li><b>Designed, build, and maintain internal SIEM system and security tools</b>, including Security automation, API inventory management system, Ticketing system, and Reporting system, from scratch using .NET, Java, and Go. <b>The tools are used by 2000+ technical employees and security team members, and provide ~2 times faster assessment report construction</b></li>
                       <li><b>Perform Penetration Tests, Security Code Reviews, and Static analysis (MobSF, Appknox)</b> on Crypto.com Exchange Web and Mobile applications, and internal ITSM tools, <b>with 100% on-time delivery of high-quality, industry standard reports. Lead regular PII hunting and Secrets scanning exercises within the company's cloud-based environment</b></li>
@@ -54,9 +52,7 @@
                     <h3><a href="" target="_blank">Worldline International Limited</a></h3>
                     <time>Nov 2020 - April 2021</time>
                     <p><i>Solution Consultant</i></p>
-                    <p>
-
-                    </p><ul>
+                    <p></p><ul>
                       <li><b>Assisted in system design</b> and played an integral role in drafting requirements based on RFP specifications</li>
                       <li><b>Provided technical expertise, offering innovative solutions and valuable recommendations</b> to address complex challenges</li>
                       <li><b>Collaborated</b> effectively with colleagues, actively contributing to the provision of technical design recommendations for successful project implementation</li>
@@ -70,9 +66,7 @@
                     <h3><a href="" target="_blank">Octopus Cards Limited</a></h3>
                     <time>Oct 2016 - Nov 2020</time>
                     <p><i>Senior System Engineer</i></p>
-                    <p>
-
-                    </p><ul>
+                    <p></p><ul>
                       <li><b>Manage an offshore development team</b> for successful project delivery, contributed to <b>Application performance engineering by increasing 100%+ transaction performances</b> with Grafana, Logstash, Telegraf, and Jolokia, and <b>played a key role in the entire SDLC</b>, including requirement gathering, design, development, and testing</li>
                       <li><b>Developed application architecture</b> using Kafka, Zookeeper, and Active MQ, and designed and developed an <b>Automated Fare Collection (AFC) system</b> from scratch using Spring Boot, Spring Data JPA, and PostgreSQL. Also, designed and develop an <b>Annotation based auto-generated UI framework</b> for the backend system using AngularJS</li>
                       <li><b>Built a configurable mock REST API engine</b> using the Go language</li>
@@ -86,9 +80,7 @@
                     <h3><a href="" target="_blank">PCCW Solution</a></h3>
                     <time>Sep 2015 - Oct 2016</time>
                     <p><i>Solution Developer</i></p>
-                    <p>
-
-                    </p><ul>
+                    <p></p><ul>
                       <li><b>Developed and utilized Pearl script</b> for efficient handling of different types of data, implemented <b>Java application</b> for managing multiple types of incoming CDR flow, and contributed to the development of a Rating System</li>
                       <li><b>Managed MVNO Operator Flow control with expertise</b> in Roaming CDR and TAPIN Handling, processing multiple types of CDR files from different sources, and developing batch file and shell script processing programs for efficient data handling</li>
                     </ul>
@@ -101,9 +93,7 @@
                     <h3><a href="" >Prime Creation Technology</a></h3>
                     <time>Sep 2014 - Aug 2015</time>
                     <p><i>Analysis Programmer I</i></p>
-                    <p>
-                      
-                    </p><ul>
+                    <p></p><ul>
                       <li><b>Optimized the Mobile Billing System, enhanced the provisioning processor, developed calculations</b> for Data Plan and Roaming Service, and <b>designed/implemented</b> a server for handling SMS messages</li>
                       <li><b>Implemented PDP (Packet Data Protocol) processor</b> for GPRS/HSDPA network, managed <b>systems processing around 30k+ customer transactions daily with stable performance</b>, and developed SOAP-based APIs for seamless integration</li>
                     </ul>
@@ -140,45 +130,37 @@
 
                 <section>
                     <h3><a href="">ISC2</a></h3>
-                    <p>
-                      <ul>
-                        <li><i>Certified Information Systems Security Professional (CISSP)</i></li>
-                      </ul>
-                    </p>
+                    <ul>
+                      <li><i>Certified Information Systems Security Professional (CISSP)</i></li>
+                    </ul>
                 </section>
 
                 <section>
                     <h3><a href="">Security Operation</a></h3>
-                    <p>
-                      <ul>
-                        <li><i>Offensive Security Certified Expert 3 (OSCE3)</i></li>
-                        <li><i>Offensive Security Experienced Penetration Tester (OSEP)</i></li>
-                        <li><i>Offensive Security Exploit Developer (OSED)</i></li>
-                        <li><i>Offensive Security Web Expert (OSWE)</i></li>
-                        <li><i>Offensive Security Certified Professional (OSCP)</i></li>
-                        <li><i>eLearnSecurity Junior Penetration Tester (eJPT)</i></li>
-                      </ul>
-                    </p>
+                    <ul>
+                      <li><i>Offensive Security Certified Expert 3 (OSCE3)</i></li>
+                      <li><i>Offensive Security Experienced Penetration Tester (OSEP)</i></li>
+                      <li><i>Offensive Security Exploit Developer (OSED)</i></li>
+                      <li><i>Offensive Security Web Expert (OSWE)</i></li>
+                      <li><i>Offensive Security Certified Professional (OSCP)</i></li>
+                      <li><i>eLearnSecurity Junior Penetration Tester (eJPT)</i></li>
+                    </ul>
                 </section>
 
                 <section>
                     <h3><a href="">Artificial Intelligence</a></h3>
-                    <p>
-                      <ul>
-                        <li><i>DeepLearning.AI - Machine Learning Specialization</i></li>
-                        <li><i>DeepLearning.AI - Neural Networks and Deep Learning</i></li>
-                      </ul>
-                    </p>
+                    <ul>
+                      <li><i>DeepLearning.AI - Machine Learning Specialization</i></li>
+                      <li><i>DeepLearning.AI - Neural Networks and Deep Learning</i></li>
+                    </ul>
                 </section>
 
                 <section>
                     <h3><a href="">Others</a></h3>
-                    <p>
-                      <ul>
-                        <li><i>Certificate of Azure Fundamentals</i></li>
-                        <li><i>Certificate of Data Science Orientation</i></li>
-                      </ul>
-                    </p>
+                    <ul>
+                      <li><i>Certificate of Azure Fundamentals</i></li>
+                      <li><i>Certificate of Data Science Orientation</i></li>
+                    </ul>
                 </section>
 
             </section>

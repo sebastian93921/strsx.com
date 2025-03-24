@@ -43,7 +43,7 @@ defineProps({
 });
 
 defineOptions({
-    name: 'Thanks'
+    name: 'ThanksSection'
 });
 
 const codeArrays = ref([

@@ -38,7 +38,7 @@ defineProps({
 });
 
 defineOptions({
-    name: 'Experience'
+    name: 'ExperienceSection'
 });
 
 const isFinish = ref(false);

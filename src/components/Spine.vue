@@ -9,6 +9,6 @@
 
 <script setup>
 defineOptions({
-    name: 'Spine'
+    name: 'SpineSection'
 });
 </script>

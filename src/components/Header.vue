@@ -27,7 +27,7 @@ defineProps({
 });
 
 defineOptions({
-    name: 'Header'
+    name: 'AppHeader'
 });
 
 const openMenu = () => {

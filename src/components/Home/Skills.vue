@@ -110,7 +110,7 @@ defineProps({
 });
 
 defineOptions({
-    name: 'Skills'
+    name: 'SkillsSection'
 });
 </script>
 

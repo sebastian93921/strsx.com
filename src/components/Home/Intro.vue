@@ -31,7 +31,7 @@ import { ref } from 'vue';
 import AutoType from '@/services/AutoType';
 
 defineOptions({
-    name: 'Intro'
+    name: 'IntroSection'
 });
 
 const isFinish = ref(false);
@@ -40,7 +40,7 @@ const typeArray = [
     "",
     "<p style='color: #dbdbdb'>Developer, Reviewer & Pentester, Hong Kong</p>",
     "",
-    "> Research and Development",
+    "> AI LLM Research and Development",
     "> Backend system review & pentesting",
     "> Test automation"
 ];

@@ -30,6 +30,6 @@
 
 <script setup>
 defineOptions({
-    name: '404'
+    name: 'NotFound'
 });
 </script>

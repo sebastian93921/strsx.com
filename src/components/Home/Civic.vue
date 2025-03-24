@@ -31,7 +31,7 @@ defineProps({
 });
 
 defineOptions({
-    name: 'Civic'
+    name: 'CivicSection'
 });
 </script>
 
