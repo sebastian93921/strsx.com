@@ -1,4 +1,4 @@
-<template comments>
+<template>
     <main id="resume-console" class="wrapper">
         <section id="enter-pin" class="scene-intro" >
             <div class="static-container">
@@ -7,9 +7,7 @@
                 </h1>
                 
                 <div class="home-content">
-
                     <div class="row home-content__main">
-
                         <h4>Resume Console</h4>
                         <form action="/resume-console" class="form__group field">
                             <br>
@@ -22,7 +20,6 @@
                             <p>If you can't find the pin, please email me for any assistance.</p>
                         </form>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -34,28 +31,28 @@
     </main>
 </template>
 
-<script>
-    // style
-    import '@/styles/page-common.scss';
-    import Spine from '@/components/Spine.vue';
+<script setup>
+import { onMounted, onBeforeUnmount } from 'vue';
+// style
+import '@/styles/page-common.scss';
+import Spine from '@/components/Spine.vue';
 
-    export default {
-        name: 'resume-console',
-        props: {
-            viewport: Object,
-        },
-        data() {
-            return {
-            }
-        },
-        created() {
-            // before leaving the page, in case of refresh
-            window.addEventListener("beforeunload", () => window.scroll(0, 0));
-        },
-        components: {
-            Spine,
-        }
-    };
+defineProps({
+    viewport: Object,
+});
+
+defineOptions({
+    name: 'resume-console'
+});
+
+onMounted(() => {
+    // before leaving the page, in case of refresh
+    window.addEventListener("beforeunload", () => window.scroll(0, 0));
+});
+
+onBeforeUnmount(() => {
+    window.removeEventListener("beforeunload", () => window.scroll(0, 0));
+});
 </script>
 
 <style lang="scss">

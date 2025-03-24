@@ -102,18 +102,16 @@
     </div>
 </template>
 
-<script>
-    import Titles from './Titles.vue';
+<script setup>
+import Titles from './Titles.vue';
 
-    export default {
-        name: 'Skills',
-        props: {
-            viewport: Object
-        },
-        components: {
-            Titles,
-        }
-    }
+defineProps({
+    viewport: Object
+});
+
+defineOptions({
+    name: 'Skills'
+});
 </script>
 
 <style scoped>

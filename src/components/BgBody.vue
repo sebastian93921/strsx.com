@@ -4,8 +4,8 @@
     </div>
 </template>
 
-<script>
-    export default {
-        name: 'BgBody'
-    }
+<script setup>
+defineOptions({
+    name: 'BgBody'
+});
 </script>

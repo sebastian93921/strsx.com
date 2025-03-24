@@ -28,8 +28,8 @@
     </div>
 </template>
 
-<script>
-    export default {
-        name: '404'
-    };
+<script setup>
+defineOptions({
+    name: '404'
+});
 </script>

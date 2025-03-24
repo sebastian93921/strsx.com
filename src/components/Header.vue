@@ -18,27 +18,25 @@
     </header>
 </template>
 
-<script>
-    import GitHubCorner from '@/components/GitHubCorner.vue';
+<script setup>
+import GitHubCorner from '@/components/GitHubCorner.vue';
 
-    export default {
-        name: 'Header',
-        props: {
-            routeName: String,
-            viewport: Object,
-        },
-        methods: {
-            openMenu(){
-                document.body.classList.add('-open-nav');
-            },
-            closeMenu(){
-                document.body.classList.remove('-open-nav');
-            },
-        },
-        components: {
-            GitHubCorner
-        }
-    };
+defineProps({
+    routeName: String,
+    viewport: Object,
+});
+
+defineOptions({
+    name: 'Header'
+});
+
+const openMenu = () => {
+    document.body.classList.add('-open-nav');
+};
+
+const closeMenu = () => {
+    document.body.classList.remove('-open-nav');
+};
 </script>
 
 <style lang="scss">
@@ -88,5 +86,4 @@
     font-weight: 700;
     color: var(--purple)
 }
-
 </style>

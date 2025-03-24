@@ -1,67 +1,77 @@
 <template>
-    <div id="app" :class="this.$route.meta.bodyClass">
+    <div id="app" :class="$route.meta.bodyClass">
         <BgBody />
 
-        <Header :routeName="this.$route.name"
+        <Header :routeName="$route.name"
                 :viewport="viewport" />
 
-
         <router-view :viewport="viewport" />
-
     </div>
 </template>
 
 <script>
-    // styles
-    import '@/styles/app.scss';
-    import '@/styles/nprogress.scss';
-    // GSAP + ScrollMagic
-    import * as ScrollMagic from "scrollmagic";
-    import { TweenMax, TimelineMax } from "gsap";
-    import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
-    ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
-    // Components
-    import Header from '@/components/Header.vue';
-    import BgBody from '@/components/BgBody.vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { useRoute } from 'vue-router';
+// styles
+import '@/styles/app.scss';
+import '@/styles/nprogress.scss';
+// GSAP + ScrollMagic
+import * as ScrollMagic from "scrollmagic";
+import { gsap } from "gsap";
+import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
+ScrollMagicPluginGsap(ScrollMagic, gsap);
+// Components
+import Header from '@/components/Header.vue';
+import BgBody from '@/components/BgBody.vue';
 
-    export default {
-        name: 'App',
-        data() {
-            return {
-                viewport: {
-                    w: window.innerWidth,
-                    h: window.innerHeight,
-                    is568: window.innerWidth <= 568,
-                    is768: window.innerWidth <= 768,
-                    is1024: window.innerWidth <= 1024,
-                },
-                introTimeline: new TimelineMax(),
-                leaveTimeline: new TimelineMax(),
+export default {
+    name: 'App',
+    components: {
+        Header,
+        BgBody,
+    },
+    setup() {
+        const route = useRoute();
+        const viewport = ref({
+            w: window.innerWidth,
+            h: window.innerHeight,
+            is568: window.innerWidth <= 568,
+            is768: window.innerWidth <= 768,
+            is1024: window.innerWidth <= 1024,
+        });
+
+        const introTimeline = gsap.timeline();
+        const leaveTimeline = gsap.timeline();
+
+        const updateViewport = () => {
+            viewport.value = {
+                w: window.innerWidth,
+                h: window.innerHeight,
+                is568: window.innerWidth <= 568,
+                is768: window.innerWidth <= 768,
+                is1024: window.innerWidth <= 1024,
             };
-        },
-        created() {
+        };
+
+        onMounted(() => {
             // update viewport
-            this.updateViewport();
+            updateViewport();
             // add resize listener
-            window.addEventListener('resize', this.updateViewport);
+            window.addEventListener('resize', updateViewport);
             // add beforeunload listener, in case of refresh
             window.addEventListener("beforeunload", () => window.scroll(0,0));
-        },
-        methods: {
-            updateViewport() {
-                // update
-                this.viewport = {
-                    w: window.innerWidth,
-                    h: window.innerHeight,
-                    is568: window.innerWidth <= 568,
-                    is768: window.innerWidth <= 768,
-                    is1024: window.innerWidth <= 1024,
-                }
-            },
-        },
-        components: {
-            Header,
-            BgBody,
-        },
-    };
+        });
+
+        onBeforeUnmount(() => {
+            window.removeEventListener('resize', updateViewport);
+            window.removeEventListener("beforeunload", () => window.scroll(0,0));
+        });
+
+        return {
+            viewport,
+            introTimeline,
+            leaveTimeline,
+        };
+    },
+};
 </script>

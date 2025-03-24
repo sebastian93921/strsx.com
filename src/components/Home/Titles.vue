@@ -6,12 +6,13 @@
     </section>
 </template>
 
-<script>
-    export default {
-        name: 'Titles',
-        props: {
-            scene: String,
-            viewport: Object
-        }
-    }
+<script setup>
+defineProps({
+    scene: String,
+    viewport: Object
+});
+
+defineOptions({
+    name: 'Titles'
+});
 </script>

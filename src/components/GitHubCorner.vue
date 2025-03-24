@@ -10,10 +10,10 @@
 
 </template>
 
-<script>
-export default {
+<script setup>
+defineOptions({
     name: 'GitHubCorner'
-};
+});
 </script>
 
 <style>

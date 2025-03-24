@@ -23,18 +23,16 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import Titles from "./Titles.vue";
 
-export default {
-    props: {
-        viewport: Object
-    },
-    name: 'Civic',
-    components: {
-        Titles,
-    }
-}
+defineProps({
+    viewport: Object
+});
+
+defineOptions({
+    name: 'Civic'
+});
 </script>
 
 <style lang="scss" scoped>
@@ -86,5 +84,4 @@ export default {
         bottom: 4rem;
     }
 }
-
 </style>

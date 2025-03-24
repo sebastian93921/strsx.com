@@ -35,52 +35,47 @@ App running at:
     </section>
 </template>
 
-<script>
+<script setup>
+import { ref } from 'vue';
 
+defineProps({
+    viewport: Object
+});
 
+defineOptions({
+    name: 'Thanks'
+});
 
+const codeArrays = ref([
+    {line: 21, code:"<span style='color: var(--red);'>public void</span> <span style='color: var(--yellow);'>futureDirection()</span> {"},
+    {line: 22, code:"&nbspfrom(\"Future.Direction\")"},
+    {line: 23, code:"&nbsp&nbsp.body(\"<span style='color: var(--yellow);'>In the future, I would fight for more chances in development to master up my skills</span>\")"},
+    {line: 24, code:"&nbsp&nbsp.and(\"<span style='color: var(--yellow);'>Helping each others problem also is my goal of success</span>\")"},
+    {line: 25, code:"&nbsp&nbsp.and(\"<span style='color: var(--yellow);'>I hope I can improve these my life style.</span>\");"},
+    {line: 26, code:"}"},
+    {line: 27, code:""},
+    {line: 28, code:"<span style='color: var(--red);'>public void</span> <span style='color: var(--yellow);'>howItsMade()</span> {"},
+    {line: 29, code:"&nbspfrom(\"Visual.Studio.Code\")"},
+    {line: 30, code:"&nbsp&nbsp.to(\"<span style='color: var(--yellow);'>Vue.js</span>\")"},
+    {line: 31, code:"&nbsp&nbsp.with(\"<span style='color: var(--yellow);'>GSAP</span>\")"},
+    {line: 32, code:"&nbsp&nbsp.and(\"<span style='color: var(--yellow);'>ScrollMagic</span>\")"},
+    {line: 33, code:"}"},
+    {line: 34, code:""},
+    {line: 35, code:"<span style='color: var(--red);'>public void</span> <span style='color: var(--yellow);'>contact()</span> {"},
+    {line: 36, code:"&nbspfrom(\"My.Contact\")"},
+    {line: 37, code:"&nbsp&nbsp.to(\"<span style='color: var(--yellow);'>sebastian.ko.dv@gmail.com</span>\");"},
+    {line: 38, code:"}"},
+    {line: 49, code:""},
+    {line: 40, code:"// If you want to know more about me, please check my resume"},
+]);
 
-export default {
-    props: {
-        viewport: Object
-    },
-    name: 'Thanks',
-    data: () => {
-        return {
-            codeArrays: [
-                {line: 21, code:"<span style='color: var(--red);'>public void</span> <span style='color: var(--yellow);'>futureDirection()</span> {"},
-                {line: 22, code:"&nbspfrom(\"Future.Direction\")"},
-                {line: 23, code:"&nbsp&nbsp.body(\"<span style='color: var(--yellow);'>In the future, I would fight for more chances in development to master up my skills</span>\")"},
-                {line: 24, code:"&nbsp&nbsp.and(\"<span style='color: var(--yellow);'>Helping each others problem also is my goal of success</span>\")"},
-                {line: 25, code:"&nbsp&nbsp.and(\"<span style='color: var(--yellow);'>I hope I can improve these my life style.</span>\");"},
-                {line: 26, code:"}"},
-                {line: 27, code:""},
-                {line: 28, code:"<span style='color: var(--red);'>public void</span> <span style='color: var(--yellow);'>howItsMade()</span> {"},
-                {line: 29, code:"&nbspfrom(\"Visual.Studio.Code\")"},
-                {line: 30, code:"&nbsp&nbsp.to(\"<span style='color: var(--yellow);'>Vue.js</span>\")"},
-                {line: 31, code:"&nbsp&nbsp.with(\"<span style='color: var(--yellow);'>GSAP</span>\")"},
-                {line: 32, code:"&nbsp&nbsp.and(\"<span style='color: var(--yellow);'>ScrollMagic</span>\")"},
-                {line: 33, code:"}"},
-                {line: 34, code:""},
-                {line: 35, code:"<span style='color: var(--red);'>public void</span> <span style='color: var(--yellow);'>contact()</span> {"},
-                {line: 36, code:"&nbspfrom(\"My.Contact\")"},
-                {line: 37, code:"&nbsp&nbsp.to(\"<span style='color: var(--yellow);'>sebastian.ko.dv@gmail.com</span>\");"},
-                {line: 38, code:"}"},
-                {line: 49, code:""},
-                {line: 40, code:"// If you want to know more about me, please check my resume"},
-            ]
-        }
-    },
-    methods: {
-        getNow() {
-            const today = new Date();
-            const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-            const time = (today.getHours() < 10 ? '0' + today.getHours() : today.getHours()) + ":" + (today.getMinutes() < 10 ? '0' + today.getMinutes() : today.getMinutes()) + ":" + (today.getSeconds() < 10 ? '0'+today.getSeconds() : today.getSeconds());
-            const dateTime = date +' '+ time;
-            return dateTime;
-        }
-    }
-}
+const getNow = () => {
+    const today = new Date();
+    const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    const time = (today.getHours() < 10 ? '0' + today.getHours() : today.getHours()) + ":" + (today.getMinutes() < 10 ? '0' + today.getMinutes() : today.getMinutes()) + ":" + (today.getSeconds() < 10 ? '0'+today.getSeconds() : today.getSeconds());
+    const dateTime = date +' '+ time;
+    return dateTime;
+};
 </script>
 
 <style lang="scss" scoped>

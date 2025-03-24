@@ -28,96 +28,92 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import Titles from "./Titles.vue";
-import AutoType from '@/services/AutoType'
+import AutoType from '@/services/AutoType';
+import { ref } from 'vue';
 
-export default {
-    props: {
-        viewport: Object
+defineProps({
+    viewport: Object
+});
+
+defineOptions({
+    name: 'Experience'
+});
+
+const isFinish = ref(false);
+const typeArray = ref([
+    "GET / HTTP/1.1",
+    "Host: strsx.com",
+    "Cache-Control: max-age=0",
+    "Sec-Ch-Ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"",
+    "Sec-Ch-Ua-Mobile: ?0",
+    "Dnt: 1",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "Sec-Fetch-Site: none",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Accept-Encoding: gzip, deflate",
+    "Accept-Language: en,zh-TW;q=0.9,zh;q=0.8,ja;q=0.7,zh-CN;q=0.6",
+    "If-Modified-Since: Tue, 25 May 2021 15:47:31 GMT",
+    "Connection: close",
+    "",
+    "",
+    "",
+]);
+
+const jobs = ref([
+    {
+        "id":5,
+        "company":"Crypto.com",
+        "role":"Senior Application Security Engineer",
+        "year":"21 ~",
+        "icon":"crypto.png"
     },
-    name: 'Experience',
-    components: {
-        Titles,
-        AutoType,
+    {
+        "id":4,
+        "company":"Worldline Ltd",
+        "role":"Solution Consultant",
+        "year":"20 - 21",
+        "icon":"wordline.png"
     },
-    data: () => {
-        return {
-            isFinish: false,
-            typeArray: [
-                "GET / HTTP/1.1",
-                "Host: strsx.com",
-                "Cache-Control: max-age=0",
-                "Sec-Ch-Ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"",
-                "Sec-Ch-Ua-Mobile: ?0",
-                "Dnt: 1",
-                "Upgrade-Insecure-Requests: 1",
-                "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
-                "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                "Sec-Fetch-Site: none",
-                "Sec-Fetch-Mode: navigate",
-                "Sec-Fetch-User: ?1",
-                "Sec-Fetch-Dest: document",
-                "Accept-Encoding: gzip, deflate",
-                "Accept-Language: en,zh-TW;q=0.9,zh;q=0.8,ja;q=0.7,zh-CN;q=0.6",
-                "If-Modified-Since: Tue, 25 May 2021 15:47:31 GMT",
-                "Connection: close",
-                "",
-                "",
-                "",
-                ],
-            jobs:[
-                {
-                    "id":5,
-                    "company":"Crypto.com",
-                    "role":"Senior Application Security Engineer",
-                    "year":"21 ~",
-                    "icon":"crypto.png"
-                },
-                {
-                    "id":4,
-                    "company":"Worldline Ltd",
-                    "role":"Solution Consultant",
-                    "year":"20 - 21",
-                    "icon":"wordline.png"
-                
-                },
-                {
-                    "id":3,
-                    "company":"Octopus Cards Ltd",
-                    "role":"Senior System Engineer",
-                    "year":"16 - 20",
-                    "icon":"octopus.png"
-                },
-                {
-                    "id":2,
-                    "company":"PCCW Solution",
-                    "role":"Solution Developer",
-                    "year":"15 - 16",
-                    "icon":"pccw.png"
-                },
-                {
-                    "id":1,
-                    "company":"Prime Creation",
-                    "role":"Analysis Programmer",
-                    "year":"14 - 15",
-                    "icon":"primecreation.png"
-                }
-            ]
-        }
+    {
+        "id":3,
+        "company":"Octopus Cards Ltd",
+        "role":"Senior System Engineer",
+        "year":"16 - 20",
+        "icon":"octopus.png"
     },
-    methods: {
-        jobCardRotateLocation(job){
-            return 'rotate(0deg)'; // No rotation
-        },
-        jobCardLeftLocation(job){
-            return ((job.id - 1) / this.jobs.length * 100 ) + '%';
-        },
-        jobCardTopLocation(job){
-            return ( (50 / this.jobs.length * (this.jobs.length - job.id + 1)) ) + 'vh';
-        },
+    {
+        "id":2,
+        "company":"PCCW Solution",
+        "role":"Solution Developer",
+        "year":"15 - 16",
+        "icon":"pccw.png"
     },
-}
+    {
+        "id":1,
+        "company":"Prime Creation",
+        "role":"Analysis Programmer",
+        "year":"14 - 15",
+        "icon":"primecreation.png"
+    }
+]);
+
+const jobCardRotateLocation = (job) => {
+    return 'rotate(0deg)'; // No rotation
+};
+
+const jobCardLeftLocation = (job) => {
+    return ((job.id - 1) / jobs.value.length * 100 ) + '%';
+};
+
+const jobCardTopLocation = (job) => {
+    return ( (50 / jobs.value.length * (jobs.value.length - job.id + 1)) ) + 'vh';
+};
 </script>
 
 <style scoped>
@@ -164,5 +160,4 @@ export default {
 .year{
     font-size: 0.7rem;
 }
-
 </style>

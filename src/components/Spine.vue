@@ -7,8 +7,8 @@
     </div>
 </template>
 
-<script>
-    export default {
-        name: 'Spine'
-    }
+<script setup>
+defineOptions({
+    name: 'Spine'
+});
 </script>

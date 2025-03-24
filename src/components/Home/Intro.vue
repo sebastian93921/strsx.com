@@ -26,37 +26,28 @@ home
 </section> <!-- end s-home -->
 </template>
 
-<script>
-import AutoType from '@/services/AutoType'
+<script setup>
+import { ref } from 'vue';
+import AutoType from '@/services/AutoType';
 
-export default {
-    name: 'Intro',
-    data: () => {
-        return {
-            isFinish: false,
-            typeArray: [
-                    "<h2 style='color: red'>Sebastian Ko</h2>",
-                    "",
-                    "<p style='color: #dbdbdb'>Developer, Reviewer & Pentester, Hong Kong</p>",
-                    "",
-                    "> Research and Development",
-                    "> Backend system review & pentesting",
-                    "> Test automation"
-                    ],
-        }
-    },
-    components:{
-        AutoType
-    },
-    methods: {
-        typeFinish(){
-            this.isFinish = false;
-        }
-    },
-    created() {
-    }
-}
+defineOptions({
+    name: 'Intro'
+});
 
+const isFinish = ref(false);
+const typeArray = [
+    "<h2 style='color: red'>Sebastian Ko</h2>",
+    "",
+    "<p style='color: #dbdbdb'>Developer, Reviewer & Pentester, Hong Kong</p>",
+    "",
+    "> Research and Development",
+    "> Backend system review & pentesting",
+    "> Test automation"
+];
+
+const typeFinish = () => {
+    isFinish.value = false;
+};
 </script>
 
 <style scoped>

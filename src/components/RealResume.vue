@@ -288,18 +288,11 @@
   </section>
 </template>
 
-<script>
-
-export default {
-  data: function() {
-    return {
-      show: true,
-    }
-  }
-}
+<script setup>
+defineOptions({
+    name: 'RealResume'
+});
 </script>
-
-
 
 <style lang="scss" scoped>
 
