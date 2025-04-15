@@ -150,6 +150,7 @@
                 <section>
                     <h3><a href="">Artificial Intelligence</a></h3>
                     <ul>
+                      <li><i>Nvidia - Building RAG Agents with LLMs</i></li>
                       <li><i>DeepLearning.AI - Machine Learning Specialization</i></li>
                       <li><i>DeepLearning.AI - Neural Networks and Deep Learning</i></li>
                     </ul>
