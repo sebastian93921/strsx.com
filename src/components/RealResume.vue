@@ -35,7 +35,7 @@
                     <time>April 2021 - Present</time>
                     <p><i>Senior Engineer/Penetration Tester, Application Security</i></p>
                     <p></p><ul>
-                      <li><b>Manage and conduct company-wide Red Teaming exercises</b> to assess the overall strength of organizational defenses across the entire network. Uncovered 10+ Critical or High severity issues</li>
+                      <li><b>Manage and conduct company-wide Red Teaming exercises</b> to assess the overall strength of organizational defenses across the entire network. Uncovered 20+ Critical or High severity issues</li>
                       <li><b>Designed and executed</b> advanced attack simulations that <b>evaded multiple enterprise EDR platforms</b> by leveraging <b>custom encrypted C2 channels</b>, obfuscated payloads and reverse-tunnelling techniques</li>
                       <li><b>Designed, build, and maintain internal SIEM system and security tools</b>, including Security automation, API inventory management system, Ticketing system, and Reporting system, from scratch using .NET, Java, and Go. <b>The tools are used by 2000+ technical employees and security team members, and provide ~2 times faster assessment report construction</b></li>
                       <li><b>Perform Penetration Tests, Security Code Reviews, and Static analysis (MobSF, Appknox)</b> on Crypto.com Exchange Web and Mobile applications, and internal ITSM tools, <b>with 100% on-time delivery of high-quality, industry standard reports. Lead regular PII hunting and Secrets scanning exercises within the company's cloud-based environment</b></li>
