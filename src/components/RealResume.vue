@@ -171,6 +171,16 @@
                 <h2>Achievement</h2>
 
                 <section>
+                    <h3><a href="">Blackhat MEA 2025 Finals Participants</a></h3>
+                    <time>2025</time>
+                    <p><i>Recognized for high-level technical skills and competitive performance in a prestigious security competition.</i></p>
+                    <ul>
+                        <li>**Participated in the finals** of the Blackhat MEA 2025 competition.</li>
+                        <li>Demonstrated advanced knowledge and skills in various cybersecurity domains against top global talent.</li>
+                    </ul>
+                </section>
+
+                <section>
                     <h3><a href="">HackerOne Bug Bounty Programs</a></h3>
                     <time>Present</time>
                     <p><i>Actively engage in HackerOne Bug Bounty Programs for third-party companies</i></p>
