@@ -269,9 +269,6 @@
                     <ul>
                       <li>As Medical First Responders provide lifesaving first aid and help reduce the risk of further injury or illness</li>
                       <li>Patient assessment for treatments identification</li>
-                      <li>Certificate in First Aid</li>
-                      <li>Certificate in Operation of Automatic External Defibrillator</li>
-                      <li>Certificate on NAEMT's Prehospital Trauma Life Support (PHTLS)</li>
                     </ul>
                 </section>
 
