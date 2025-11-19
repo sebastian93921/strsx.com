@@ -171,7 +171,7 @@
                 <h2>Achievement</h2>
 
                 <section>
-                    <h3><a href="">Blackhat MEA 2025 Finals Participants</a></h3>
+                    <h3><a href="">Black Hat MEA 2025 Finalist</a></h3>
                     <time>2025</time>
                     <p><i>Recognized for high-level technical skills and competitive performance in a prestigious security competition.</i></p>
                     <ul>
