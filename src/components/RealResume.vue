@@ -145,6 +145,7 @@
                 <section>
                     <h3><a href="">Security Operation</a></h3>
                     <ul>
+                      <li><i>Hack The Box Certified Web Exploitation Expert (HTB CWEE)</i></li>
                       <li><i>Offensive Security Certified Expert 3 (OSCE3)</i></li>
                       <li><i>Offensive Security Experienced Penetration Tester (OSEP)</i></li>
                       <li><i>Offensive Security Exploit Developer (OSED)</i></li>
