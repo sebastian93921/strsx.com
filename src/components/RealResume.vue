@@ -3,7 +3,7 @@
     <div class="header-container">
       <header class="wrapper clearfix">
         <h1 class="title">Sebastian Ko</h1>
-        <p>Senior Engineer/Penetration Tester | OSCE3 | CISSP | AI Security</p>
+        <p>Manager, Application Security and DevSecOps | HTB CWEE | OSCE3 | CISSP | AI Security</p>
       </header>
     </div>
     <main class="main-container">
@@ -38,7 +38,7 @@
                 <section>
                     <h3><a href="" target="_blank">Crypto.com</a></h3>
                     <time>April 2021 - Present</time>
-                    <p><i>Senior Engineer/Penetration Tester, Application Security</i></p>
+                    <p><i>Manager, Application Security and DevSecOps</i></p>
                     <p></p><ul>
                       <li><b>Built an AI-powered Bug Bounty Auto-Triaging Platform</b> utilizing LLMs and LangChain, featuring automated proof-of-concept (POC) sandbox execution via isolated Docker containers and a RAG-based knowledge base chatbot with ChromaDB vector search</li>
                       <li><b>Architected an AI-driven security assessment orchestration framework</b> using n8n and LangChain, combining tools like Nessus and Nuclei with an autonomous Agent architecture to generate 20+ attack vectors and consolidate risk analysis dynamically</li>
