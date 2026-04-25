@@ -124,11 +124,36 @@ const scrollToBottom = async () => {
 };
 
 const formatMessage = (text) => {
-    // Convert URLs to clickable links
-    return text.replace(
-        /(https?:\/\/[^\s<]+)/g,
-        '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
-    );
+    let html = text
+        // Escape HTML
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        // Bold: **text**
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        // Italic: *text*
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        // Inline code: `code`
+        .replace(/`(.+?)`/g, '<code>$1</code>')
+        // URLs
+        .replace(
+            /(https?:\/\/[^\s<]+)/g,
+            '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+        )
+        // Line breaks
+        .replace(/\n/g, '<br>');
+
+    // Bullet points: lines starting with "- " or "* "
+    html = html.replace(/((?:^|<br>)\s*[-*]\s.+(?:<br>\s*[-*]\s.+)*)/g, (match) => {
+        const items = match
+            .split('<br>')
+            .filter(line => line.trim())
+            .map(line => '<li>' + line.replace(/^\s*[-*]\s/, '') + '</li>')
+            .join('');
+        return '<ul>' + items + '</ul>';
+    });
+
+    return html;
 };
 
 const getRecentContext = () => {
@@ -467,6 +492,33 @@ const sendMessage = async () => {
         &:hover {
             color: #c4b5fd;
         }
+    }
+
+    strong {
+        font-weight: 700;
+        color: #fff;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    code {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 1px 5px;
+        border-radius: 4px;
+        font-family: 'Courier New', monospace;
+        font-size: 0.8rem;
+    }
+
+    ul {
+        margin: 6px 0;
+        padding-left: 1.2em;
+    }
+
+    li {
+        margin-bottom: 2px;
+        list-style: disc;
     }
 }
 
