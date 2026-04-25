@@ -6,6 +6,8 @@
                 :viewport="viewport" />
 
         <router-view :viewport="viewport" />
+
+        <Chatbot />
     </div>
 </template>
 
@@ -23,6 +25,7 @@ ScrollMagicPluginGsap(ScrollMagic, gsap);
 // Components
 import AppHeader from '@/components/Header.vue';
 import BgBody from '@/components/BgBody.vue';
+import Chatbot from '@/components/Chatbot.vue';
 
 defineOptions({
     name: 'App'
