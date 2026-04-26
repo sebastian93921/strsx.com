@@ -54,13 +54,21 @@ const currentInput = ref('');
 const currentStep = ref(0); // 0: start, 1: ls done, 2: cat hint done, 3: decoded done
 
 const quickCmds = computed(() => {
+    const decoys = ['whoami', 'pwd', 'date', 'ls -la', 'cat secret_binary'];
+    // Randomly pick 2 decoys
+    const pickedDecoys = decoys.sort(() => 0.5 - Math.random()).slice(0, 2);
+    
+    let mainCmds = [];
     switch (currentStep.value) {
-        case 0: return ['help', 'ls'];
-        case 1: return ['cat hint.txt', 'clear'];
-        case 2: return ['base64decode ZGlnaXRhbF9wcmVzZW5jZQ==', 'clear'];
-        case 3: return ['unlock digital_presence', 'clear'];
-        default: return ['help', 'ls', 'clear'];
+        case 0: mainCmds = ['help', 'ls']; break;
+        case 1: mainCmds = ['cat hint.txt', 'clear']; break;
+        case 2: mainCmds = ['base64decode ZGlnaXRhbF9wcmVzZW5jZQ==', 'clear']; break;
+        case 3: mainCmds = ['unlock digital_presence', 'clear']; break;
+        default: mainCmds = ['help', 'ls', 'clear'];
     }
+    
+    // Combine and shuffle slightly
+    return [...mainCmds, ...pickedDecoys].sort(() => 0.5 - Math.random());
 });
 
 const terminalLines = ref([
@@ -144,6 +152,15 @@ const processCommand = (rawCmd) => {
             break;
         case 'whoami':
             terminalLines.value.push({ text: 'guest_user_#412', type: 'system' });
+            break;
+        case 'pwd':
+            terminalLines.value.push({ text: '/home/guest', type: 'system' });
+            break;
+        case 'date':
+            terminalLines.value.push({ text: new Date().toString(), type: 'system' });
+            break;
+        case 'ls -la':
+            terminalLines.value.push({ text: 'total 4 <br> drwxr-xr-x 2 root root 4096 Jan 30 13:37 . <br> drwxr-xr-x 3 root root 4096 Jan 30 13:37 .. <br> -r--r--r-- 1 root root  42 Jan 30 13:37 hint.txt <br> -r--r----- 1 root root 1024 Jan 30 13:37 secret_binary', type: 'system' });
             break;
         default:
             terminalLines.value.push({ text: `Command not found: ${cmd}`, type: 'error' });
