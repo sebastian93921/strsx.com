@@ -6,21 +6,30 @@
             </h1>
             // More about this page
             <div class="code-border-line"></div>
-            <div class="code-viewer">
-                <table class="" cellspacing="0" cellpadding="0">
-                    <colgroup>
-                        <col class="code-line-column">
-                        <col class="code-content-column">
-                    </colgroup>
-                    <tbody>
-                        <tr v-for="codeArray in codeArrays" :key="codeArray.line" >
-                            <td class="code-line">{{codeArray.line}}</td>
-                            <td class="code-content"><span v-html="codeArray.code" /></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="window-title">thanks_for_coming.java</div>
+                </div>
+                <div class="code-viewer">
+                    <table class="" cellspacing="0" cellpadding="0">
+                        <colgroup>
+                            <col class="code-line-column">
+                            <col class="code-content-column">
+                        </colgroup>
+                        <tbody>
+                            <tr v-for="codeArray in codeArrays" :key="codeArray.line" >
+                                <td class="code-line">{{codeArray.line}}</td>
+                                <td class="code-content"><span v-html="codeArray.code" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div class="code-border-line"></div>
             <pre class="console">
 <span class="compile-done">DONE</span>  <span class="compile-sen">Compiled successfully in 243ms</span> <span v-if="!viewport.is768" class="compile-time">{{getNow()}}</span><span v-else></span>
 
@@ -79,18 +88,60 @@ const getNow = () => {
 </script>
 
 <style lang="scss" scoped>
+.code-window {
+    background: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.window-header {
+    background: #323233;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #252526;
+}
+
+.dots {
+    display: flex;
+    gap: 8px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot.red { background: #ff5f56; }
+.dot.yellow { background: #ffbd2e; }
+.dot.green { background: #27c93f; }
+
+.window-title {
+    color: #969696;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .code-viewer{
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
     font-size: 1rem;
     color: var(--light);
+    padding: 15px;
 
     .code-line{
-        min-width: 22px;
+        min-width: 30px;
+        color: #858585;
         border-right: 1px solid #3a3a3a; 
+        padding-right: 10px;
     }
 
     .code-content{
-        padding-left: 4px;
+        padding-left: 15px;
     }
 }
 

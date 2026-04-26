@@ -120,7 +120,25 @@ const jobs = ref([
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
+    position: relative;
+    padding-left: 20px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: repeating-linear-gradient(
+            to bottom,
+            rgba(60, 184, 120, 0.5),
+            rgba(60, 184, 120, 0.5) 5px,
+            transparent 5px,
+            transparent 10px
+        );
+    }
 }
 
 .job{
@@ -129,9 +147,23 @@ const jobs = ref([
     display: flex;
     align-items: center;
     height: 60px;
-    width: 300px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: -25px;
+        top: 50%;
+        width: 10px;
+        height: 10px;
+        background: #3cb878;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        box-shadow: 0 0 10px rgba(60, 184, 120, 0.8);
+    }
 }
 .jobIcon{
     margin-left:10px;

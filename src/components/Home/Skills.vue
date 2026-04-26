@@ -117,7 +117,9 @@ const skillCategories = ref([
 .skill-pill:hover {
     background: rgba(104, 42, 233, 0.4);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(104, 42, 233, 0.2);
+    box-shadow: 0 0 15px rgba(104, 42, 233, 0.6);
+    border-color: rgba(104, 42, 233, 0.8);
+    color: #fff;
 }
 
 @media screen and (max-width: 568px) {
