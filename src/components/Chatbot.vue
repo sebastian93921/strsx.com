@@ -31,7 +31,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h4>strsx bot</h4>
+                            <h4>Agent Seb</h4>
                             <span class="chatbot-status">
                                 <span class="status-dot"></span>
                                 Online
@@ -108,7 +108,7 @@ const messagesContainer = ref(null);
 const messages = ref([
     {
         role: 'bot',
-        content: 'Hey there! 👋 I\'m strsx bot. Ask me anything about Sebastian — skills, experience, or projects!'
+        content: 'Hey there! 👋 I\'m Agent Seb. Ask me anything about Sebastian — skills, experience, or projects!'
     }
 ]);
 
