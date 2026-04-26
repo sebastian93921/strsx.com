@@ -40,9 +40,10 @@ const typeArray = [
     "",
     "<p style='color: #dbdbdb'>Manager, AppSec & DevSecOps | HTB CWEE | OSCE3 | CISSP</p>",
     "",
-    "> AI & LLM Security Operations",
-    "> Enterprise Red Teaming & EDR Evasion",
-    "> Security Engineering & DevSecOps"
+    "> AI/LLM Security Research & Ops",
+    "> AI-Driven Security Orchestration",
+    "> Red Teaming & EDR Evasion",
+    "> Security Automation & SIEM"
 ];
 
 const typeFinish = () => {
