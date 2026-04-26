@@ -178,7 +178,13 @@ svg {
 }
 
 /* @group Scene && Containers */
-.scene { min-height: 100vh }
+.scene {
+    min-height: auto;
+    padding: 10vh 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
 .container {
     position: fixed;
     top: 0;
@@ -191,13 +197,13 @@ svg {
     perspective-origin: 50% 50vh;
 }
 .title-container {
-    @extend .container;
-
     padding: 0 1rem 0 25vw;
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
-    top: 22vh;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 
     .title {
         margin-right: 0;
@@ -387,26 +393,25 @@ svg {
 @media screen and (max-width: 568px) {
 
     /* @group Scene && Containers */
-    .static-container { margin: 0 2rem 0 calc(2rem + 1px) }
+    .static-container { margin: 0 1.2rem 0 calc(1.2rem + 1px) }
     .title-container {
-        padding: 0 1rem 0 2rem;
-
-        .title { margin-bottom: 1rem }
+        padding: 0 1rem;
+        .title { margin-bottom: 0.8rem }
     }
 
     /* @element .title */
     .title {
-        margin-right: -2rem;
-        margin-bottom: 1rem;
-        font-size: 2rem;
-        line-height: 1.1;
+        margin-right: 0;
+        margin-bottom: 0.8rem;
+        font-size: 1.8rem;
+        line-height: 1.15;
     }
 
     /* @element .std */
     .std{
         .subtitle{
-            margin-right: -2rem;
-            font-size: 2rem
+            margin-right: 0;
+            font-size: 1.8rem
         }
     }
 

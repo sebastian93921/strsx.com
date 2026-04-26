@@ -7,7 +7,7 @@
             <div class="std">
                 <p class="-gray">// Post and experience</p>
                 <div class="experience">
-                    <div class="job" v-for="job in jobs" :key="job.id" v-bind:style="{ 'transform': jobCardRotateLocation(job), 'top': jobCardTopLocation(job)}">
+                    <div class="job" v-for="job in jobs" :key="job.id">
                         <div class="jobIcon">
                             <img height="32" width="32" v-bind:src="require('@/images/jobs/' + job.icon)" />
                         </div>
@@ -69,7 +69,7 @@ const jobs = ref([
     {
         "id":5,
         "company":"Crypto.com",
-        "role":"Senior Application Security Engineer",
+        "role":"Manager, AppSec and DevSecOps",
         "year":"21 ~",
         "icon":"crypto.png"
     },
@@ -103,17 +103,7 @@ const jobs = ref([
     }
 ]);
 
-const jobCardRotateLocation = (job) => {
-    return 'rotate(0deg)'; // No rotation
-};
 
-const jobCardLeftLocation = (job) => {
-    return ((job.id - 1) / jobs.value.length * 100 ) + '%';
-};
-
-const jobCardTopLocation = (job) => {
-    return ( (50 / jobs.value.length * (jobs.value.length - job.id + 1)) ) + 'vh';
-};
 </script>
 
 <style scoped>
@@ -126,6 +116,13 @@ const jobCardTopLocation = (job) => {
     position: absolute;
 }
 
+.experience {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .job{
     background: #222!important;
     border-radius: 15px;
@@ -133,7 +130,8 @@ const jobCardTopLocation = (job) => {
     align-items: center;
     height: 60px;
     width: 300px;
-    position: absolute;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 .jobIcon{
     margin-left:10px;
@@ -148,10 +146,12 @@ const jobCardTopLocation = (job) => {
 }
 .company {
     font-size: 1rem;
+    color: #dbdbdb;
+    font-weight: bold;
 }
 .role {
-    font-size: 0.6rem;
-    color: cyan;
+    font-size: 0.65rem;
+    color: #3cb878;
 }
 .yearBlock{
     width: 20%;
@@ -159,5 +159,22 @@ const jobCardTopLocation = (job) => {
 }
 .year{
     font-size: 0.7rem;
+    color: #808080;
+}
+
+@media screen and (max-width: 568px) {
+    .job {
+        width: 260px;
+        height: 55px;
+    }
+    .company {
+        font-size: 0.85rem;
+    }
+    .role {
+        font-size: 0.55rem;
+    }
+    .burprequest {
+        display: none; /* Hide the long text background on mobile to reduce clutter */
+    }
 }
 </style>

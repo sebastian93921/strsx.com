@@ -677,4 +677,10 @@ const sendMessage = async () => {
         }
     }
 }
+
+@media print {
+    .chatbot-wrapper {
+        display: none !important;
+    }
+}
 </style>

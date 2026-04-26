@@ -17,11 +17,7 @@ import { useRoute } from 'vue-router';
 // styles
 import '@/styles/app.scss';
 import '@/styles/nprogress.scss';
-// GSAP + ScrollMagic
-import * as ScrollMagic from "scrollmagic";
-import { gsap } from "gsap";
-import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
-ScrollMagicPluginGsap(ScrollMagic, gsap);
+
 // Components
 import AppHeader from '@/components/Header.vue';
 import BgBody from '@/components/BgBody.vue';
@@ -40,8 +36,7 @@ const viewport = ref({
     is1024: window.innerWidth <= 1024,
 });
 
-const introTimeline = gsap.timeline();
-const leaveTimeline = gsap.timeline();
+
 
 const updateViewport = () => {
     viewport.value = {

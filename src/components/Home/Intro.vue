@@ -38,11 +38,11 @@ const isFinish = ref(false);
 const typeArray = [
     "<h2 style='color: red'>Sebastian Ko</h2>",
     "",
-    "<p style='color: #dbdbdb'>Developer, Reviewer & Pentester, Hong Kong</p>",
+    "<p style='color: #dbdbdb'>Manager, AppSec & DevSecOps | HTB CWEE | OSCE3 | CISSP</p>",
     "",
-    "> AI/LLM Programming",
-    "> Backend system review & pentesting",
-    "> Test automation"
+    "> AI & LLM Security Operations",
+    "> Enterprise Red Teaming & EDR Evasion",
+    "> Security Engineering & DevSecOps"
 ];
 
 const typeFinish = () => {

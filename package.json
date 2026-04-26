@@ -8,10 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "gsap": "^3.12.5",
     "nprogress": "^0.2.0",
-    "scrollmagic": "^2.0.8",
-    "scrollmagic-plugin-gsap": "^1.0.3",
     "underscore": "^1.13.6",
     "vue": "^3.4.15",
     "vue-gtag": "^2.0.0",

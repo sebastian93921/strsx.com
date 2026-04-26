@@ -1,100 +1,20 @@
 <template>
     <div>
         <Titles :viewport="viewport" scene="skills">
-            <h1 class="title" v-if="viewport.is768">
-                <p>Tools &</p>
-                <p>Framework</p>
-            </h1>
-            <h1 class="title" v-else>
-                Tools & Framework
+            <h1 class="title">
+                Core Competencies
             </h1>
             <div class="std">
-                <p class="-gray">// Technologies I've been working with recently</p>
+                <p class="-gray">// Technologies & methodologies I excel at</p>
             </div>
             
-            <div class="std boxstage" v-if="viewport.is768">
-                <div class="boxarea">
-                    <div class="box box1">
-                        <a href="https://www.kali.org/" title="" class=""><img src="@/images/strengths/kali-linux.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box2">
-                        <a href="https://www.offensive-security.com/" title="" class=""><img src="@/images/strengths/penetration-test.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box3">
-                        <a href="https://www.java.com/" title="" class=""><img src="@/images/strengths/java.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box4">
-                        <a href="https://spring.io/" title="" class=""><img src="@/images/strengths/spring.png" width="60px" height="60px"/></a>
-                    </div>
-                </div>
-                <div class="boxarea">
-                    <div class="box box5">
-                        <a href="https://www.python.org/" title="" class=""><img src="@/images/strengths/python.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box6">
-                        <a href="https://golang.org/" title="" class=""><img src="@/images/strengths/golang.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box7">
-                        <a href="https://vuejs.org/" title="" class=""><img src="@/images/strengths/vuejs.png" width="60px" height="60px"/></a>
-                    </div>
-                     <div class="box box8">
-                        <a href="https://nodejs.org/" title="" class=""><img src="@/images/strengths/nodejs.png" width="60px" height="60px"/></a>
-                    </div>
-                </div>
-                <div class="boxarea">
-                    <div class="box box9">
-                        <a href="https://www.docker.com/" title="" class=""><img src="@/images/strengths/docker.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box10">
-                        <a href="https://kubernetes.io/" title="" class=""><img src="@/images/strengths/kubernates.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box11">
-                        <a href="https://www.mysql.com/" title="" class=""><img src="@/images/strengths/mysql.png" width="60px" height="60px"/></a>
-                    </div>
-                     <div class="box box12">
-                        <a href="https://www.influxdata.com/" title="" class=""><img src="@/images/strengths/influxdb.png" width="60px" height="60px"/></a>
-                    </div>
-                </div>
-            </div>
-            <div class="std boxstage" v-else>
-                <div class="boxarea">
-                    <div class="box box1">
-                        <a href="https://www.kali.org/" title="" class=""><img src="@/images/strengths/kali-linux.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box2">
-                        <a href="https://www.offensive-security.com/" title="" class=""><img src="@/images/strengths/penetration-test.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box3">
-                        <a href="https://www.java.com/" title="" class=""><img src="@/images/strengths/java.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box4">
-                        <a href="https://spring.io/" title="" class=""><img src="@/images/strengths/spring.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box5">
-                        <a href="https://www.python.org/" title="" class=""><img src="@/images/strengths/python.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box6">
-                        <a href="https://golang.org/" title="" class=""><img src="@/images/strengths/golang.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box7">
-                        <a href="https://vuejs.org/" title="" class=""><img src="@/images/strengths/vuejs.png" width="60px" height="60px"/></a>
-                    </div>
-                     <div class="box box8">
-                        <a href="https://nodejs.org/" title="" class=""><img src="@/images/strengths/nodejs.png" width="60px" height="60px"/></a>
-                    </div>
-                </div>
-                <div class="boxarea">
-                    <div class="box box9">
-                        <a href="https://www.docker.com/" title="" class=""><img src="@/images/strengths/docker.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box10">
-                        <a href="https://kubernetes.io/" title="" class=""><img src="@/images/strengths/kubernates.png" width="60px" height="60px"/></a>
-                    </div>
-                    <div class="box box11">
-                        <a href="https://www.mysql.com/" title="" class=""><img src="@/images/strengths/mysql.png" width="60px" height="60px"/></a>
-                    </div>
-                     <div class="box box12">
-                        <a href="https://www.influxdata.com/" title="" class=""><img src="@/images/strengths/influxdb.png" width="60px" height="60px"/></a>
+            <div class="skills-container">
+                <div class="skill-category" v-for="category in skillCategories" :key="category.name">
+                    <h3 class="category-name">{{ category.name }}</h3>
+                    <div class="skill-tags">
+                        <div class="skill-pill" v-for="skill in category.skills" :key="skill.name">
+                            <span class="skill-icon">{{ skill.icon }}</span> {{ skill.name }}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,6 +24,7 @@
 
 <script setup>
 import Titles from './Titles.vue';
+import { ref } from 'vue';
 
 defineProps({
     viewport: Object
@@ -112,28 +33,107 @@ defineProps({
 defineOptions({
     name: 'SkillsSection'
 });
+
+const skillCategories = ref([
+    {
+        name: "Cybersecurity",
+        skills: [
+            { name: "AI/LLM Security Testing", icon: "🤖" },
+            { name: "Red Teaming & EDR Evasion", icon: "🎯" },
+            { name: "Web & Mobile Pentesting", icon: "📱" },
+            { name: "Cloud Security (AWS/Azure)", icon: "☁️" },
+            { name: "Architecture Code Review", icon: "🔍" },
+            { name: "Burp Suite", icon: "🕷️" },
+            { name: "Nuclei", icon: "🚀" }
+        ]
+    },
+    {
+        name: "Development & Architecture",
+        skills: [
+            { name: "AI/LLM Programming", icon: "🧠" },
+            { name: "LangChain & n8n", icon: "🔗" },
+            { name: "Python", icon: "🐍" },
+            { name: "Go", icon: "🐹" },
+            { name: "Java", icon: "☕" },
+            { name: "Docker & Kubernetes", icon: "🐳" },
+            { name: "Spring Boot", icon: "🍃" },
+            { name: ".NET", icon: "🌐" },
+            { name: "Kafka", icon: "📨" },
+            { name: "Linux/Windows AD", icon: "🐧" }
+        ]
+    },
+    {
+        name: "DevSecOps & Data",
+        skills: [
+            { name: "GitHub Actions", icon: "⚡" },
+            { name: "ArgoCD", icon: "🐙" },
+            { name: "SonarQube & Checkmarx", icon: "🛡️" },
+            { name: "Semgrep", icon: "🔎" },
+            { name: "PostgreSQL", icon: "🐘" },
+            { name: "InfluxDB", icon: "📈" },
+            { name: "Vector DB", icon: "📐" }
+        ]
+    }
+]);
 </script>
 
 <style scoped>
-.boxstage{
-    height:40vh;
+.skills-container {
     width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
 }
-.boxarea{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.skill-category {
+    margin-bottom: 2rem;
 }
-.box {
-    height: 60px;
-    width: 60px;
-    align-items: center;
-    margin: 10px;
-    font-size: 1.2em;
-    font-weight: 700;
-    color: white;
+
+.category-name {
+    color: #dbdbdb;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.skill-tags {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-pill {
+    background: rgba(104, 42, 233, 0.1);
+    border: 1px solid rgba(104, 42, 233, 0.3);
+    color: #e0d4fc;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.skill-pill:hover {
+    background: rgba(104, 42, 233, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(104, 42, 233, 0.2);
+}
+
+@media screen and (max-width: 568px) {
+    .skills-container {
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .category-name {
+        font-size: 1.1rem;
+    }
+    .skill-tags {
+        gap: 8px;
+    }
+    .skill-pill {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+    }
 }
 </style>
