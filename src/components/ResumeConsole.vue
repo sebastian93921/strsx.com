@@ -54,7 +54,7 @@ const currentInput = ref('');
 const currentStep = ref(0); // 0: start, 1: ls done, 2: cat hint done, 3: decoded done
 
 const quickCmds = computed(() => {
-    const decoys = ['whoami', 'pwd', 'date', 'ls -la', 'cat secret_binary'];
+    const decoys = ['hint', 'whoami', 'pwd', 'date', 'unlock localhost', 'cat secret_binary'];
     // Randomly pick 2 decoys
     const pickedDecoys = decoys.sort(() => 0.5 - Math.random()).slice(0, 2);
     
@@ -158,9 +158,6 @@ const processCommand = (rawCmd) => {
             break;
         case 'date':
             terminalLines.value.push({ text: new Date().toString(), type: 'system' });
-            break;
-        case 'ls -la':
-            terminalLines.value.push({ text: 'total 4 <br> drwxr-xr-x 2 root root 4096 Jan 30 13:37 . <br> drwxr-xr-x 3 root root 4096 Jan 30 13:37 .. <br> -r--r--r-- 1 root root  42 Jan 30 13:37 hint.txt <br> -r--r----- 1 root root 1024 Jan 30 13:37 secret_binary', type: 'system' });
             break;
         default:
             terminalLines.value.push({ text: `Command not found: ${cmd}`, type: 'error' });
