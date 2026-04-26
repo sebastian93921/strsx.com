@@ -73,9 +73,9 @@ const handleCommand = () => {
 const processCommand = (rawCmd) => {
     const cmd = rawCmd.toLowerCase();
 
-    if (cmd.startsWith('base64 ')) {
+    if (cmd.startsWith('base64decode ')) {
         try {
-            const encoded = rawCmd.substring(7).trim();
+            const encoded = rawCmd.substring(13).trim();
             const decoded = atob(encoded);
             terminalLines.value.push({ text: `Decoded: ${decoded}`, type: 'success' });
         } catch (e) {
@@ -86,10 +86,10 @@ const processCommand = (rawCmd) => {
 
     switch (cmd) {
         case 'help':
-            terminalLines.value.push({ text: 'Available commands: <br> - ls: List files <br> - cat [file]: Read file content <br> - base64 [string]: Decode Base64 <br> - hint: Get a clue <br> - unlock [key]: Unlock the resume <br> - clear: Clear console', type: 'system' });
+            terminalLines.value.push({ text: 'Available commands: <br> - ls: List files <br> - cat [file]: Read file content <br> - base64decode [string]: Decode Base64 <br> - hint: Get a clue <br> - unlock [key]: Unlock the resume <br> - clear: Clear console', type: 'system' });
             break;
         case 'ls':
-            terminalLines.value.push({ text: 'total 2 <br> -r--r--r-- 1 root root  42 Jan 30 13:37 hint.txt <br> -r--r--r-- 1 root root 1024 Jan 30 13:37 secret_binary', type: 'system' });
+            terminalLines.value.push({ text: 'total 2 <br> -r--r--r-- 1 root root  42 Jan 30 13:37 hint.txt <br> -r--r----- 1 root root 1024 Jan 30 13:37 secret_binary', type: 'system' });
             break;
         case 'cat hint.txt':
             terminalLines.value.push({ text: 'Clue: "The truth is encoded in the matrix. Look closely at the base." <br> [!] Base64 String: ZGlnaXRhbF9wcmVzZW5jZQ==', type: 'system' });
@@ -98,7 +98,7 @@ const processCommand = (rawCmd) => {
             terminalLines.value.push({ text: 'Error: Cannot read binary file. Permission denied.', type: 'error' });
             break;
         case 'hint':
-            terminalLines.value.push({ text: 'Hint: Decode the Base64 found in hint.txt to find the unlock key. Use "base64 [string]" to decode.', type: 'info' });
+            terminalLines.value.push({ text: 'Hint: Decode the Base64 found in hint.txt to find the unlock key. Use "base64decode [string]" to decode.', type: 'info' });
             break;
         case 'clear':
             terminalLines.value.push({ text: 'Welcome to the strsx.com restricted console.', type: 'info' });
