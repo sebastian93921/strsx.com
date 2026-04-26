@@ -27,6 +27,12 @@
                         class="terminal-input"
                     >
                 </div>
+
+                <div class="quick-commands">
+                    <button v-for="cmd in quickCmds" :key="cmd" @click="runQuickCommand(cmd)" class="cmd-btn">
+                        {{ cmd }}
+                    </button>
+                </div>
             </div>
         </section>
 
@@ -38,13 +44,25 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, nextTick } from 'vue';
+import { ref, onMounted, onBeforeUnmount, nextTick, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import '@/styles/page-common.scss';
 import Spine from '@/components/Spine.vue';
 
 const router = useRouter();
 const currentInput = ref('');
+const currentStep = ref(0); // 0: start, 1: ls done, 2: cat hint done, 3: decoded done
+
+const quickCmds = computed(() => {
+    switch (currentStep.value) {
+        case 0: return ['help', 'ls'];
+        case 1: return ['cat hint.txt', 'clear'];
+        case 2: return ['base64decode ZGlnaXRhbF9wcmVzZW5jZQ==', 'clear'];
+        case 3: return ['unlock digital_presence', 'clear'];
+        default: return ['help', 'ls', 'clear'];
+    }
+});
+
 const terminalLines = ref([
     { text: 'Welcome to the strsx.com restricted console.', type: 'info' },
     { text: 'System security level: HIGH. Privacy protocols active.', type: 'info' },
@@ -53,6 +71,11 @@ const terminalLines = ref([
 ]);
 const terminalBody = ref(null);
 const commandInput = ref(null);
+
+const runQuickCommand = (cmd) => {
+    currentInput.value = cmd;
+    handleCommand();
+};
 
 const handleCommand = () => {
     const rawInput = currentInput.value.trim();
@@ -78,6 +101,7 @@ const processCommand = (rawCmd) => {
             const encoded = rawCmd.substring(13).trim();
             const decoded = atob(encoded);
             terminalLines.value.push({ text: `Decoded: ${decoded}`, type: 'success' });
+            if (decoded === 'digital_presence') currentStep.value = 3;
         } catch (e) {
             terminalLines.value.push({ text: 'Error: Invalid Base64 string.', type: 'error' });
         }
@@ -90,9 +114,11 @@ const processCommand = (rawCmd) => {
             break;
         case 'ls':
             terminalLines.value.push({ text: 'total 2 <br> -r--r--r-- 1 root root  42 Jan 30 13:37 hint.txt <br> -r--r----- 1 root root 1024 Jan 30 13:37 secret_binary', type: 'system' });
+            currentStep.value = 1;
             break;
         case 'cat hint.txt':
             terminalLines.value.push({ text: 'Clue: "The truth is encoded in the matrix. Look closely at the base." <br> [!] Base64 String: ZGlnaXRhbF9wcmVzZW5jZQ==', type: 'system' });
+            currentStep.value = 2;
             break;
         case 'cat secret_binary':
             terminalLines.value.push({ text: 'Error: Cannot read binary file. Permission denied.', type: 'error' });
@@ -103,6 +129,7 @@ const processCommand = (rawCmd) => {
         case 'clear':
             terminalLines.value.push({ text: 'Welcome to the strsx.com restricted console.', type: 'info' });
             terminalLines.value.push({ text: 'Challenge: Find the hidden entry point to the resume.', type: 'challenge' });
+            currentStep.value = 0;
             break;
         case 'unlock digital_presence':
             terminalLines.value.push({ text: '[SUCCESS] Access Granted. Decrypting path...', type: 'success' });
@@ -246,6 +273,36 @@ onBeforeUnmount(() => {
         height: 80vh;
         width: 95%;
         font-size: 0.8rem;
+    }
+}
+.quick-commands {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.cmd-btn {
+    background: rgba(60, 184, 120, 0.1);
+    border: 1px solid rgba(60, 184, 120, 0.3);
+    color: #3cb878;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-family: 'Consolas', monospace;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background: rgba(60, 184, 120, 0.3);
+        border-color: #3cb878;
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        transform: translateY(0);
     }
 }
 </style>
