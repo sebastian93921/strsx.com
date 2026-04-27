@@ -8,8 +8,8 @@
             @click="toggleChat"
             aria-label="Toggle chatbot"
         >
-            <svg v-if="!isOpen" class="chatbot-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            <svg v-if="!isOpen" class="chatbot-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 2.5l-1.5 3.5L14 7.5l3.5 1.5L19 12.5l1.5-3.5L24 7.5l-3.5-1.5L19 2.5zm-9.5 3L7 11l-5.5 2.5L7 16l2.5 5.5L12 16l5.5-2.5L12 11 9.5 5.5z"/>
             </svg>
             <svg v-else class="chatbot-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="18" y1="6" x2="6" y2="18"/>
@@ -244,23 +244,23 @@ const sendMessage = async () => {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #682AE9 0%, #9b59b6 100%);
+    background: linear-gradient(135deg, #e60000 0%, #ff4d4d 100%);
     border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow:
-        0 4px 20px rgba(104, 42, 233, 0.4),
-        0 0 40px rgba(104, 42, 233, 0.15);
+        0 4px 20px rgba(230, 0, 0, 0.4),
+        0 0 40px rgba(230, 0, 0, 0.15);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 
     &:hover {
         transform: scale(1.08);
         box-shadow:
-            0 6px 28px rgba(104, 42, 233, 0.55),
-            0 0 60px rgba(104, 42, 233, 0.25);
+            0 6px 28px rgba(230, 0, 0, 0.55),
+            0 0 60px rgba(230, 0, 0, 0.25);
     }
 
     &:active {
@@ -268,12 +268,12 @@ const sendMessage = async () => {
     }
 
     &.is-open {
-        background: linear-gradient(135deg, #3d1a8a 0%, #682AE9 100%);
+        background: linear-gradient(135deg, #990000 0%, #e60000 100%);
     }
 
     .chatbot-icon {
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
         color: #fff;
         transition: transform 0.3s ease;
     }
@@ -285,7 +285,7 @@ const sendMessage = async () => {
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        border: 2px solid rgba(104, 42, 233, 0.5);
+        border: 2px solid rgba(230, 0, 0, 0.5);
         animation: pulseRing 2.5s ease-out infinite;
     }
 
@@ -316,14 +316,14 @@ const sendMessage = async () => {
     background: rgba(19, 18, 29, 0.95);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(104, 42, 233, 0.25);
+    border: 1px solid rgba(230, 0, 0, 0.25);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     box-shadow:
         0 20px 60px rgba(0, 0, 0, 0.5),
-        0 0 40px rgba(104, 42, 233, 0.1),
+        0 0 40px rgba(230, 0, 0, 0.1),
         inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
@@ -333,8 +333,8 @@ const sendMessage = async () => {
     align-items: center;
     justify-content: space-between;
     padding: 14px 16px;
-    background: linear-gradient(135deg, rgba(104, 42, 233, 0.15) 0%, rgba(155, 89, 182, 0.08) 100%);
-    border-bottom: 1px solid rgba(104, 42, 233, 0.15);
+    background: linear-gradient(135deg, rgba(230, 0, 0, 0.15) 0%, rgba(255, 77, 77, 0.08) 100%);
+    border-bottom: 1px solid rgba(230, 0, 0, 0.15);
 }
 
 .chatbot-header-info {
@@ -347,7 +347,7 @@ const sendMessage = async () => {
     width: 36px;
     height: 36px;
     border-radius: 10px;
-    background: linear-gradient(135deg, #682AE9, #9b59b6);
+    background: linear-gradient(135deg, #e60000, #ff4d4d);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -433,7 +433,7 @@ const sendMessage = async () => {
         background: transparent;
     }
     &::-webkit-scrollbar-thumb {
-        background: rgba(104, 42, 233, 0.3);
+        background: rgba(230, 0, 0, 0.3);
         border-radius: 4px;
     }
 }
@@ -472,7 +472,7 @@ const sendMessage = async () => {
     word-break: break-word;
 
     .is-user & {
-        background: linear-gradient(135deg, #682AE9, #7c3aed);
+        background: linear-gradient(135deg, #e60000, #cc0000);
         color: #fff;
         border-bottom-right-radius: 4px;
     }
@@ -558,7 +558,7 @@ const sendMessage = async () => {
     align-items: center;
     gap: 8px;
     padding: 12px 14px;
-    border-top: 1px solid rgba(104, 42, 233, 0.12);
+    border-top: 1px solid rgba(230, 0, 0, 0.12);
     background: rgba(0, 0, 0, 0.2);
 
     input {
@@ -578,9 +578,9 @@ const sendMessage = async () => {
         }
 
         &:focus {
-            border-color: rgba(104, 42, 233, 0.4);
+            border-color: rgba(230, 0, 0, 0.4);
             background: rgba(255, 255, 255, 0.08);
-            box-shadow: 0 0 0 2px rgba(104, 42, 233, 0.1);
+            box-shadow: 0 0 0 2px rgba(230, 0, 0, 0.1);
         }
 
         &:disabled {
@@ -592,7 +592,7 @@ const sendMessage = async () => {
         width: 38px;
         height: 38px;
         border-radius: 10px;
-        background: linear-gradient(135deg, #682AE9, #7c3aed);
+        background: linear-gradient(135deg, #e60000, #cc0000);
         border: none;
         cursor: pointer;
         display: flex;
@@ -609,7 +609,7 @@ const sendMessage = async () => {
 
         &:hover:not(:disabled) {
             transform: scale(1.05);
-            box-shadow: 0 2px 12px rgba(104, 42, 233, 0.4);
+            box-shadow: 0 2px 12px rgba(230, 0, 0, 0.4);
         }
 
         &:active:not(:disabled) {
