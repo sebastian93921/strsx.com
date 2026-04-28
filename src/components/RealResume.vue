@@ -40,6 +40,7 @@
                     <time>April 2021 - Present</time>
                     <p><i>Manager, Application Security and DevSecOps</i></p>
                     <p></p><ul>
+                      <li><b>Engineered real-time prompt injection guardrails</b> via <b>GRPO and Unsloth</b> on open-source SLMs. Achieved <b>95%+ accuracy</b> with <b>sub-100ms latency</b></li>
                       <li><b>Built an AI-powered Bug Bounty Auto-Triaging Platform</b> utilizing LLMs and LangChain, featuring automated proof-of-concept (POC) sandbox execution via isolated Docker containers and a RAG-based knowledge base chatbot with ChromaDB vector search</li>
                       <li><b>Architected an AI-driven security assessment orchestration framework</b> using n8n and LangChain, combining tools like Nessus and Nuclei with an autonomous Agent architecture to generate 20+ attack vectors and consolidate risk analysis dynamically</li>
                       <li><b>Manage and conduct company-wide Red Teaming exercises</b> to assess the overall strength of organizational defenses across the entire network. Uncovered 20+ Critical or High severity issues</li>
