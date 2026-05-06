@@ -1,8 +1,6 @@
 <template>
   <section id="resume">
-    <div class="qr-code print-only">
-      <QRCodeVue :value="'https://strsx.com'" :size="75" level="M" render-as="svg" />
-    </div>
+    <div class="qr-code print-only" ref="qrContainer"></div>
     <div class="header-container">
       <header class="wrapper clearfix">
         <h1 class="title">Sebastian Ko</h1>
