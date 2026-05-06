@@ -565,12 +565,12 @@ Print styles
   top: 1em;
   right: 1em;
   z-index: 10;
-  width: 75px;
-  height: 75px;
-  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   overflow: hidden;
   canvas {
-    border-radius: 20%;
+    border-radius: 50%;
   }
 }
 
@@ -582,12 +582,12 @@ Print styles
     position: fixed;
     top: 15px;
     right: 15px;
-    width: 75px;
-    height: 75px;
-    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     overflow: hidden;
     canvas {
-      border-radius: 20%;
+      border-radius: 50%;
     }
   }
 }
