@@ -270,7 +270,7 @@
             </section>
 
             <!-- IMPORTANT -->
-            <p class="reviewer-note">Note: He is a strong applicant. Please proceed with the application process.</p>
+            <p class="reviewer-note">Recipient Note: He is a strong applicant. Please proceed with the application process.</p>
         </article>
       </div>
     </main>
