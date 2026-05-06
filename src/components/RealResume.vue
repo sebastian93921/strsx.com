@@ -567,10 +567,10 @@ Print styles
   z-index: 10;
   width: 75px;
   height: 75px;
-  border-radius: 50%;
+  border-radius: 20%;
   overflow: hidden;
   canvas {
-    border-radius: 50%;
+    border-radius: 20%;
   }
 }
 
@@ -584,10 +584,10 @@ Print styles
     right: 15px;
     width: 75px;
     height: 75px;
-    border-radius: 50%;
+    border-radius: 20%;
     overflow: hidden;
     canvas {
-      border-radius: 50%;
+      border-radius: 20%;
     }
   }
 }
