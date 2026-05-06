@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "nprogress": "^0.2.0",
+    "qrcode.vue": "^3.9.0",
     "underscore": "^1.13.6",
     "vue": "^3.4.15",
     "vue-gtag": "^2.0.0",

@@ -1,9 +1,13 @@
 <template>
   <section id="resume">
+    <div class="qr-code print-only">
+      <QRCodeVue :value="'https://strsx.com'" :size="75" level="M" render-as="svg" />
+    </div>
     <div class="header-container">
       <header class="wrapper clearfix">
         <h1 class="title">Sebastian Ko</h1>
-        <p>Manager, Application Security and DevSecOps | HTB CWEE | OSCE3 | CISSP | AI Security</p>
+        <p class="role">Manager, Application Security and DevSecOps</p>
+        <p class="certs">HTB CWEE | OSCE3 | CISSP | AI Security</p>
       </header>
     </div>
     <main class="main-container">
@@ -272,6 +276,8 @@
 </template>
 
 <script setup>
+import QRCodeVue from 'qrcode.vue';
+
 defineOptions({
     name: 'RealResume'
 });
@@ -298,6 +304,18 @@ section{
 
 #resume .header-container h1{
   font-size: 2em;
+}
+
+#resume .header-container .role {
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+  font-weight: 500;
+}
+
+#resume .header-container .certs {
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin-bottom: 0;
 }
 
 
@@ -362,7 +380,8 @@ Print styles
   }
   #sidebar {
     border: none !important; 
-    margin-bottom: -2rem;
+    margin-bottom: -25px;
+    margin-top: 15px;
     h3 {
       display: none; }
     #thislink {
@@ -402,7 +421,18 @@ Print styles
   abbr[title]:after {
     content: " (" attr(title) ")"; }
   .header-container{
-    margin-top: 0px;
+    margin-top: 20px;
+    position: relative;
+  }
+  .header-container h1 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .header-container .role {
+    margin-bottom: 4px;
+  }
+  .header-container .certs {
+    margin-bottom: 10px;
   }
   .main-container {
     div > aside > p {
@@ -415,6 +445,9 @@ Print styles
       font-size: 14px; }
     div > aside p:before {
       content: ''; }
+    div > aside .print-only {
+      margin-top: 4px;
+      margin-bottom: 4px; }
   }
   .main aside {
     border: 0;
@@ -490,6 +523,31 @@ Print styles
 
 #resume .print-only {
   display: none; }
+
+.qr-code {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 10;
+  svg {
+    display: block;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0.5in;
+  }
+  .qr-code {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    svg {
+      max-width: 75px;
+      max-height: 75px;
+    }
+  }
+}
 
 /* ==========================================================================
 
