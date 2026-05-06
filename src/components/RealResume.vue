@@ -285,8 +285,8 @@ const qrContainer = ref(null);
 
 onMounted(() => {
   const qrCode = new QRCodeStyling({
-    width: 100,
-    height: 100,
+    width: 96,
+    height: 96,
     shape: 'circle',
     data: 'https://strsx.com',
     image: '',
@@ -569,9 +569,9 @@ Print styles
     position: fixed;
     top: 15px;
     right: 15px;
-    width: 130px;
-    height: 130px;
-    padding: 14px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
     border-radius: 50%;
     border: 2px solid #0000009d;
     box-sizing: border-box;
@@ -581,7 +581,10 @@ Print styles
     canvas, svg {
       width: 100px !important;
       height: 100px !important;
-      margin: 0 !important;
+      margin: auto !important;
+      position: relative !important;
+      left: auto !important;
+      top: auto !important;
     }
   }
 }
