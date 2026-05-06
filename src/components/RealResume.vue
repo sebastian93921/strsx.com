@@ -287,6 +287,7 @@ onMounted(() => {
   const qrCode = new QRCodeStyling({
     width: 100,
     height: 100,
+    shape: 'circle',
     data: 'https://strsx.com',
     image: '',
     dotsOptions: {
@@ -560,20 +561,6 @@ Print styles
 #resume .print-only {
   display: none; }
 
-.qr-code {
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  z-index: 10;
-  width: 100px;
-  height: 100px;
-  border-radius: 20%;
-  overflow: hidden;
-  canvas {
-    border-radius: 20%;
-  }
-}
-
 @media print {
   @page {
     margin: 0.5in;
@@ -582,12 +569,19 @@ Print styles
     position: fixed;
     top: 15px;
     right: 15px;
-    width: 100px;
-    height: 100px;
-    border-radius: 20%;
-    overflow: hidden;
-    canvas {
-      border-radius: 20%;
+    width: 130px;
+    height: 130px;
+    padding: 14px;
+    border-radius: 50%;
+    border: 2px solid #0000009d;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    canvas, svg {
+      width: 100px !important;
+      height: 100px !important;
+      margin: 0 !important;
     }
   }
 }
