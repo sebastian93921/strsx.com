@@ -579,8 +579,8 @@ Print styles
     align-items: center;
     justify-content: center;
     canvas, svg {
-      width: 100px !important;
-      height: 100px !important;
+      width: 96px !important;
+      height: 96px !important;
       margin: auto !important;
       position: relative !important;
       left: auto !important;
