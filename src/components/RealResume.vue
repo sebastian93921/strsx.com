@@ -285,13 +285,13 @@ const qrContainer = ref(null);
 
 onMounted(() => {
   const qrCode = new QRCodeStyling({
-    width: 75,
-    height: 75,
+    width: 100,
+    height: 100,
     data: 'https://strsx.com',
     image: '',
     dotsOptions: {
       type: 'dots',
-      color: '#000000'
+      color: '#000000cb'
     },
     cornersSquareOptions: {
       type: 'dot',
