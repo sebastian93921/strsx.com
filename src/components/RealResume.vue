@@ -276,10 +276,48 @@
 </template>
 
 <script setup>
-import QRCodeVue from 'qrcode.vue';
+import { onMounted, ref } from 'vue';
+import QRCodeStyling from 'qr-code-styling';
 
 defineOptions({
     name: 'RealResume'
+});
+
+const qrContainer = ref(null);
+
+onMounted(() => {
+  const qrCode = new QRCodeStyling({
+    width: 75,
+    height: 75,
+    data: 'https://strsx.com',
+    image: '',
+    dotsOptions: {
+      type: 'dots',
+      color: '#000000'
+    },
+    cornersSquareOptions: {
+      type: 'dot',
+      color: '#000000'
+    },
+    cornersDotOptions: {
+      type: 'dot',
+      color: '#000000'
+    },
+    backgroundOptions: {
+      color: '#ffffff'
+    },
+    imageOptions: {
+      crossOrigin: false,
+      margin: 0
+    },
+    qrOptions: {
+      errorCorrectionLevel: 'H'
+    }
+  });
+  
+  if (qrContainer.value) {
+    qrCode.append(qrContainer.value);
+  }
 });
 </script>
 
@@ -529,8 +567,12 @@ Print styles
   top: 1em;
   right: 1em;
   z-index: 10;
-  svg {
-    display: block;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+  canvas {
+    border-radius: 50%;
   }
 }
 
@@ -542,9 +584,12 @@ Print styles
     position: fixed;
     top: 15px;
     right: 15px;
-    svg {
-      max-width: 75px;
-      max-height: 75px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    canvas {
+      border-radius: 50%;
     }
   }
 }
