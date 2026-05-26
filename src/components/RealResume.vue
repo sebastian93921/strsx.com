@@ -222,7 +222,7 @@
                       </li>
                       <li><strong>Reverse-Shell-Multithreaded-Listener</strong>
                         <ul>
-                          <li>>Multithreaded TCP listener for handling concurrent reverse shell connections during red team engagements, enabling efficient C2 session management.</li>
+                          <li>Multithreaded TCP listener for handling concurrent reverse shell connections during red team engagements, enabling efficient C2 session management.</li>
                         </ul>
                       </li>
                       <li><a href="https://github.com/sebastian93921/" target="_blank">Click here to visit my GitHub profile</a></li>
