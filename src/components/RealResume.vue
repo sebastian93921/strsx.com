@@ -206,13 +206,23 @@
                 <section>
                     <h3><a href="">Security and Software Development Project</a></h3>
                     <time>Present</time>
-                    <p><i>This section showcases my hobbies and contributions to open-source projects</i></p>
+                    <p><i>This section showcases my contributions to open-source projects</i></p>
                     <ul>
-                      <li><strong>OSINT Offensive Toolkit (oott)</strong> - A collection of OSINT tools specifically designed for pentesters and security assessments</li>
-                      <li><strong>Markdown2Openxml.NET</strong> - A C# library that converts Markdown format into OpenXML Word format</li>
-                      <li><strong>burp-payload-tester</strong> - A Burp Suite plugin for automated testing of each field in a specific API</li>
-                      <li><strong>Reverse-Shell-Multithreaded-Listener</strong> - A simple multithreaded TCP listener for reverse shell connections</li>
-                      <li><strong>strsx.com</strong> - My ePortfolio website, which serves as a showcase of my work</li>
+                      <li><strong>MCP Inspector (modelcontextprotocol/inspector)</strong>
+                        <ul>
+                          <li>Official visual testing & debugging tool for the Model Context Protocol ecosystem <b>(10k+ stars)</b>, the standard for MCP server development. Contributed improvements to the inspector's functionality and developer experience.</li>
+                        </ul>
+                      </li>
+                      <li><strong>OSINT Offensive Toolkit (oott)</strong>
+                        <ul>
+                          <li>Curated collection of OSINT tools and automation scripts designed for penetration testers and security assessments. Created and maintained for practical reconnaissance workflows.</li>
+                        </ul>
+                      </li>
+                      <li><strong>Reverse-Shell-Multithreaded-Listener</strong>
+                        <ul>
+                          <li>Multithreaded TCP listener for handling concurrent reverse shell connections during red team engagements, enabling efficient C2 session management.</li>
+                        </ul>
+                      </li>
                       <li><a href="https://github.com/sebastian93921/" target="_blank">Click here to visit my GitHub profile</a></li>
                     </ul>
                 </section>
@@ -236,7 +246,7 @@
 
                     <ul>
                         <li><strong>Development & Architecture</strong></li>
-                        <li>AI/LLM Programming (LangChain / n8n)</li>
+                        <li>AI/LLM Programming (LangChain / MCP)</li>
                         <li>Python, Go, Java, C#, JS</li>
                         <li>Docker & Kubernetes</li>
                         <li>Spring Boot & Blazor .NET</li>
