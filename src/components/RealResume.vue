@@ -437,8 +437,7 @@ Print styles
     color: #111111!important;
   }
   .reviewer-note {
-    color: #ffffff !important;
-    opacity: 0.2;
+    display: none !important;
   }
   #sidebar {
     border: none !important; 
