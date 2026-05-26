@@ -210,17 +210,19 @@
                     <ul>
                       <li><strong>MCP Inspector (modelcontextprotocol/inspector)</strong>
                         <ul>
-                          <li>Official visual testing & debugging tool for the Model Context Protocol ecosystem <b>(10k+ stars)</b>, the standard for MCP server development. Contributed improvements to the inspector's functionality and developer experience.</li>
+                          <li>Official visual testing & debugging tool for the Model Context Protocol ecosystem <b>(10k+ stars)</b>, the standard for MCP server development</li>
+                          <li>Contributed improvements to the inspector's functionality and developer experience</li>
                         </ul>
                       </li>
-                      <li><strong>OSINT Offensive Toolkit (oott)</strong>
+                      <li><strong>tech-tracer</strong>
                         <ul>
-                          <li>Curated collection of OSINT tools and automation scripts designed for penetration testers and security assessments. Created and maintained for practical reconnaissance workflows.</li>
+                          <li>Chrome extension for monitoring and analyzing network traffic with detailed resource visualization</li>
+                          <li>Helps pentesters trace API calls and debug web application traffic in real-time</li>
                         </ul>
                       </li>
                       <li><strong>Reverse-Shell-Multithreaded-Listener</strong>
                         <ul>
-                          <li>Multithreaded TCP listener for handling concurrent reverse shell connections during red team engagements, enabling efficient C2 session management.</li>
+                          <li>>Multithreaded TCP listener for handling concurrent reverse shell connections during red team engagements, enabling efficient C2 session management.</li>
                         </ul>
                       </li>
                       <li><a href="https://github.com/sebastian93921/" target="_blank">Click here to visit my GitHub profile</a></li>
