@@ -7,7 +7,7 @@
       <header class="wrapper clearfix">
         <h1 class="title">Sebastian Ko</h1>
         <p class="role">Manager, Application Security and DevSecOps</p>
-        <p class="certs">HTB CWEE | OSCE3 | CISSP | AI Security</p>
+        <p class="certs">HTB COAE | OSCE3 | CISSP | AI Security</p>
       </header>
     </div>
     <main class="main-container">
@@ -140,6 +140,13 @@
 
             <section id="certification" class="list">
                 <h2>Related Certification</h2>
+
+                <section>
+                    <h3><a href="">AI Security</a></h3>
+                    <ul>
+                      <li><i>Hack The Box Certified Offensive AI Expert (HTB COAE)</i></li>
+                    </ul>
+                </section>
 
                 <section>
                     <h3><a href="">ISC2</a></h3>

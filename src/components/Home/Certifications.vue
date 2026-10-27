@@ -33,6 +33,11 @@ defineOptions({
 
 const certs = ref([
     {
+        name: "HTB COAE",
+        year: "Oct 2026 · Hack The Box",
+        desc: "Hack The Box Certified Offensive AI Expert — adversarial testing of AI/LLM systems and AI-driven security operations."
+    },
+    {
         name: "Black Hat MEA 2025 Finalist",
         year: "2025",
         desc: "Recognized for high-level technical skills and competitive performance in a prestigious global security competition."

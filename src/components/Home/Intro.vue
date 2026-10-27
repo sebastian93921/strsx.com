@@ -6,7 +6,7 @@ home
     <canvas id="matrix-canvas"></canvas>
     <div class="static-container">
         <h1 class="title">
-            <span class="iuri">strsx</span>
+            <span class="iuri">Sebastian Ko</span>
         </h1>
         
         <div class="home-content">
@@ -37,9 +37,9 @@ defineOptions({
 
 const isFinish = ref(false);
 const typeArray = [
-    "<h2 style='color: red'>Sebastian Ko</h2>",
+    "<h2 style='color: red'>strsx</h2>",
     "",
-    "<p style='color: #dbdbdb'>Manager, AppSec & DevSecOps | HTB CWEE | OSCE3 | CISSP</p>",
+    "<p style='color: #dbdbdb'>Manager, AppSec & DevSecOps | HTB COAE | OSCE3 | CISSP</p>",
     "",
     "> AI/LLM Security Research & Ops",
     "> AI-Driven Security Orchestration",
