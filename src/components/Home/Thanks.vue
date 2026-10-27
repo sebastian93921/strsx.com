@@ -68,14 +68,15 @@ const codeArrays = ref([
     {line: 30, code:"&nbsp&nbsp.to(\"<span style='color: var(--yellow);'>Vue.js</span>\")"},
     {line: 31, code:"&nbsp&nbsp.with(\"<span style='color: var(--yellow);'>IntersectionObserver</span>\")"},
     {line: 32, code:"&nbsp&nbsp.and(\"<span style='color: var(--yellow);'>Native CSS Animations</span>\")"},
-    {line: 33, code:"}"},
-    {line: 34, code:""},
-    {line: 35, code:"<span style='color: var(--red);'>public void</span> <span style='color: var(--yellow);'>contact()</span> {"},
-    {line: 36, code:"&nbspfrom(\"My.Contact\")"},
-    {line: 37, code:"&nbsp&nbsp.to(\"<span style='color: var(--yellow);'>sebastian.ko.dv@gmail.com</span>\");"},
-    {line: 38, code:"}"},
-    {line: 49, code:""},
-    {line: 40, code:"// If you want to know more about me, please check my resume"},
+    {line: 33, code:"&nbsp&nbsp.and(\"<span style='color: var(--yellow);'>ASCII sharks</span> by <a href='https://github.com/stackedlol/ascii-sharks' target='_blank' rel='noopener noreferrer'>drewdi</a> (MIT)\");"},
+    {line: 34, code:"}"},
+    {line: 35, code:""},
+    {line: 36, code:"<span style='color: var(--red);'>public void</span> <span style='color: var(--yellow);'>contact()</span> {"},
+    {line: 37, code:"&nbspfrom(\"My.Contact\")"},
+    {line: 38, code:"&nbsp&nbsp.to(\"<span style='color: var(--yellow);'>sebastian.ko.dv@gmail.com</span>\");"},
+    {line: 39, code:"}"},
+    {line: 40, code:""},
+    {line: 41, code:"// If you want to know more about me, please check my resume"},
 ]);
 
 const getNow = () => {
@@ -142,6 +143,11 @@ const getNow = () => {
 
     .code-content{
         padding-left: 15px;
+
+        :deep(a) {
+            color: var(--purple);
+            text-decoration: underline;
+        }
     }
 }
 

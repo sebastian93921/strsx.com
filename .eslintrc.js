@@ -12,6 +12,9 @@ module.exports = {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
+    "ignorePatterns": [
+        "src/services/ascii-sharks.js"
+    ],
     "plugins": [
         "vue"
     ],

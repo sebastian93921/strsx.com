@@ -2,6 +2,8 @@
     <div id="app" :class="$route.meta.bodyClass">
         <BgBody />
 
+        <SharkBackdrop />
+
         <AppHeader :routeName="$route.name"
                 :viewport="viewport" />
 
@@ -21,6 +23,7 @@ import '@/styles/nprogress.scss';
 // Components
 import AppHeader from '@/components/Header.vue';
 import BgBody from '@/components/BgBody.vue';
+import SharkBackdrop from '@/components/SharkBackdrop.vue';
 import Chatbot from '@/components/Chatbot.vue';
 
 defineOptions({

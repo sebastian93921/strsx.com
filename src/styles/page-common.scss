@@ -8,16 +8,6 @@
         justify-content: center;
     }
 
-    /* @scene Intro */
-    #intro {
-        .intro-bg{
-            position: fixed;
-            bottom: 0;
-            right: calc(25vw - 175px);
-            opacity: .2;
-        }
-    }
-
     .std {
         font-size: 1.2rem;
 
@@ -38,12 +28,6 @@
 @media screen and (max-width: 1024px) {
 
     #home {
-
-        #intro {
-            .intro-bg{
-                right: -300px;
-            }
-        }
 
         .spine { left: 1rem }
         .spine-target{ left: calc(1rem - 4px) }
