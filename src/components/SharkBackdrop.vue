@@ -58,4 +58,11 @@ onBeforeUnmount(() => {
     opacity: 0.5;
     pointer-events: none;
 }
+
+/* never waste ink on the animated backdrop */
+@media print {
+    .shark-backdrop {
+        display: none !important;
+    }
+}
 </style>

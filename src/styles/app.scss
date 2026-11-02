@@ -416,3 +416,15 @@ svg {
     }
 
 }
+
+/* Print: clean paper. The animated canvas is hidden by SharkBackdrop's own print rule. */
+@media print {
+    html,
+    body {
+        background: #fff !important;
+    }
+
+    .body-bg {
+        display: none !important;
+    }
+}
